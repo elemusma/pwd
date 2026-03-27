@@ -414,8 +414,8 @@ export default function PodcastProgram() {
             ))}
           </div>
             <GoogleReviews
-            placeId="ChIJ_TB4z7-JbIcRsXgIetzV1uU"
-            apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}
+            // placeId="ChIJ_TB4z7-JbIcRsXgIetzV1uU"
+            // apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}
           />
           <div className="bg-gray-800 rounded-lg mt-10 p-8 border border-purple-500/30 text-center">
             <p className="text-lg text-gray-300 leading-relaxed">
