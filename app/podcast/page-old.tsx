@@ -438,8 +438,8 @@ export default function PodcastPage() {
           columnClassName="w-full px-4 mb-8 lg:mb-0 reviews"
         >
           <GoogleReviews
-            placeId="ChIJ_TB4z7-JbIcRsXgIetzV1uU"
-            apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}
+            // placeId="ChIJ_TB4z7-JbIcRsXgIetzV1uU"
+            // apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}
           />
         </ContentBlock>
         <CTA />
