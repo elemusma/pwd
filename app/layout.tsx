@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Precise Wolf Digital",
     images: [
       {
-        url: "https://precisewolf.com/photos/Helping-Expert-Witnesses.jpg", // Make sure this path is valid!
+        url: "https://precisewolf.com/photos/Get-More-Leads-Clients.jpg", // Make sure this path is valid!
         width: 1200,
         height: 630,
         alt: "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
