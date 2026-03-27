@@ -1,0 +1,28 @@
+.btn-main {
+  background: var(--accent-primary);
+  transition: all 0.25s ease-in-out;
+  color: black;
+  text-decoration: none !important;
+  padding: 15px 25px;
+  border-radius: 45px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:800;
+
+  // &:hover {
+  //     filter: brightness(90%);
+  // }
+  &:hover {
+    background: var(--accent-tertiary);
+    color:white;
+  }
+  &.secondary {
+    background: var(--accent-secondary);
+    color: white;
+    &:hover {
+      background: var(--accent-tertiary);
+      color: white;
+    }
+  }
+}

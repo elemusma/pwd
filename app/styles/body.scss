@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-accent {
+  background: var(--accent-primary);
+
+  &-secondary {
+    background: var(--accent-secondary);
+  }
+}
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.divider {
+  background: var(--accent-primary);
+  height: 2px;
+  width: 250px;
+  margin: auto;
+}
+// .bg-accent-secondary {
+//     background:var(--accent-secondary);
+// }
