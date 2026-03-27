@@ -1,16 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import "@/app/styles/logo.scss";
 
 function Logo() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
-  const subtext =
-    pathname === "/practice-areas/ecommerce"
-      ? "B2C - B2B - eCommerce"
-      : "Online Presence - Name Recognition";
+  // const subtext =
+  //   pathname === "/practice-areas/ecommerce"
+  //     ? "B2C - B2B - eCommerce"
+  //     : "Online Presence - Name Recognition";
 
   return (
     <>

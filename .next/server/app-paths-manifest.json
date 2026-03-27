@@ -1,7 +1,1 @@
-{
-  "/contact/page": "app/contact/page.js",
-  "/practice-areas/seo/page": "app/practice-areas/seo/page.js",
-  "/practice-areas/web-design/page": "app/practice-areas/web-design/page.js",
-  "/page": "app/page.js",
-  "/articles/[slug]/page": "app/articles/[slug]/page.js"
-}
+{}
