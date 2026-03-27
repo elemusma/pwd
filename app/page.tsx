@@ -32,25 +32,25 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "Precise Wolf Digital – SEO & Web Design for Expert Witnesses",
-            url: "https://latinowebstudio.com",
+            name: "Precise Wolf Digital – SEO & Web Design - Get More Leads & Clients",
+            url: "https://precisewolf.com",
             description:
-              "Precise Wolf Digital helps expert witnesses get found by attorneys and get more cases through SEO, ADA-compliant websites, and fact-based content strategy.",
+              "Precise Wolf Digital helps experts get found online and get more clients through SEO, ADA-compliant websites, and fact-based content strategy.",
             inLanguage: "en",
             mainEntity: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com",
+              url: "https://precisewolf.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://precisewolf.com/assets/LWS-Workspace.png",
               },
               sameAs: ["https://www.linkedin.com/in/ted-martinez-seo/"],
               founder: {
                 "@type": "Person",
-                name: "Tadeo Martinez",
+                name: "Ted Martinez",
                 jobTitle: "Founder",
-                url: "https://latinowebstudio.com/about",
+                url: "https://precisewolf.com/about",
               },
               contactPoint: {
                 "@type": "ContactPoint",
@@ -407,8 +407,8 @@ export default function Home() {
               <video
                 className="absolute top-0 left-0 w-full h-full"
                 controls
-                poster="https://resources.latinowebstudio.com/wp-content/uploads/2025/12/Mark-McFarland-Testimonial-Poster.jpg"
-                src="https://resources.latinowebstudio.com/wp-content/uploads/2025/12/Mark-McFarland.mp4"
+                poster="https://resources.precisewolf.com/wp-content/uploads/2025/12/Mark-McFarland-Testimonial-Poster.jpg"
+                src="https://resources.precisewolf.com/wp-content/uploads/2025/12/Mark-McFarland.mp4"
                 />
             </div>
                 </div>

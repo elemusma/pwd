@@ -24,27 +24,27 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    "Attorneys - Retainers - Cases - Helping Expert Witnesses - Precise Wolf Digital",
+    "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
   description:
-    "We help expert witnesses get more cases and get found by attorneys. Watch our interviews with litigation attorneys to find out what they think. Are you unsure how to write content that won't be used against you in court? Don't get eaten alive at deposition.",
-  metadataBase: new URL("https://latinowebstudio.com"), // required for relative OG URLs
+    "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you.",
+  metadataBase: new URL("https://precisewolf.com"), // required for relative OG URLs
   alternates: {
-    canonical: "https://latinowebstudio.com", // ✅ correct canonical
+    canonical: "https://precisewolf.com", // ✅ correct canonical
   },
 
   openGraph: {
     title:
-      "Attorneys - Retainers - Cases - Helping Expert Witnesses - Precise Wolf Digital",
+      "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
     description:
-      "We help expert witnesses get more cases and get found by attorneys. Watch our interviews with litigation attorneys to find out what they think. Are you unsure how to write content that won't be used against you in court? Don't get eaten alive at deposition.",
-    url: "https://latinowebstudio.com",
+      "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you.",
+    url: "https://precisewolf.com",
     siteName: "Precise Wolf Digital",
     images: [
       {
-        url: "https://latinowebstudio.com/photos/Helping-Expert-Witnesses.jpg", // Make sure this path is valid!
+        url: "https://precisewolf.com/photos/Helping-Expert-Witnesses.jpg", // Make sure this path is valid!
         width: 1200,
         height: 630,
-        alt: "Attorneys - Retainers - Cases - Helping Expert Witnesses",
+        alt: "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
       },
     ],
     type: "website",
