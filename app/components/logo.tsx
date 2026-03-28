@@ -46,7 +46,7 @@ function Logo() {
         <Image
           src="/logos/Precise-Wolf-Digital-Logo-Main.png"
           alt="Logo Bird"
-          width={175}
+          width={180}
           height={85}
           className="relative logo-bird"
         />

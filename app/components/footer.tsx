@@ -13,7 +13,7 @@ function Footer() {
   const submitButtonText =
     pathname === "/practice-areas/ecommerce"
       ? `I build scalable eCommerce platforms with custom user roles, pricing logic, and workflows tailored to how your business operates in ${currentYear}.`
-      : `I help expert witnesses attract more high-value cases by implementing a targeted, fact-based content strategy without risking damaging content being used against you in deposition in ${currentYear}.`;
+      : `A good-looking site that nobody finds or trusts isn't doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you in ${currentYear}.`;
   return (
     <>
       <footer

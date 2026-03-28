@@ -16,7 +16,7 @@ export default function HeadshotIcons() {
         className="absolute h-1/2 w-1/2"
       >
         <Image
-          src="/assets/Headshot_1.png"
+          src="/headshot/Ted-Martinez-Precise-Wolf-Digital-Icon.png"
           alt="Tadeo (Ted) Martinez - Helping Expert Witnesses"
           fill
           className="" // Add any Tailwind or custom classes
