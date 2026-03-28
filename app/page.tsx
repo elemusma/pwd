@@ -95,9 +95,9 @@ export default function Home() {
                   <h1 className="text-secondary animated-heading lg:text-4xl text-2xl mb-0">
                     Get More Leads &amp; Clients.<br></br>Show up in Google and AI results.
                   </h1>
-                  {/* <h2 className="text-xl lg:my-2 my-1">
+                  <h2 className="text-xl lg:my-2 my-1">
                     Become the go-to expert
-                  </h2> */}
+                  </h2>
                 </div>
                 {/* <h2>iOS, Android, &amp; Web Apps</h2> */}
                 {/* <div className="lg:w-9/12 w-1/9"> */}
@@ -360,7 +360,7 @@ export default function Home() {
         <section className={``} style={{ paddingTop: 100, paddingBottom: 100 }}>
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap flex-row-reverse -mx-4 lg:justify-center justify-end">
-              <div className="w-3/12 pt-8 pb-8 px-4">
+              <div className="lg:w-3/12 w-1/2 pt-8 pb-8 px-4">
                 {/* <Image
                   src="/assets/Headshot_1.png"
                   alt="Logo"
@@ -403,15 +403,18 @@ export default function Home() {
           columnClassName="w-full px-4 mb-8 lg:mb-0 reviews"
         >
           <div className="lg:w-1/2 mx-auto">
-          <div className="relative w-full pb-[56.25%] h-0">
-              <video
-                className="absolute top-0 left-0 w-full h-full"
-                controls
-                poster="https://resources.precisewolf.com/wp-content/uploads/2025/12/Mark-McFarland-Testimonial-Poster.jpg"
-                src="https://resources.precisewolf.com/wp-content/uploads/2025/12/Mark-McFarland.mp4"
-                />
-            </div>
-                </div>
+  <div className="relative w-full pb-[56.25%] h-0">
+    <iframe
+      className="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/34a38A0dBgE"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    />
+  </div>
+</div>
           <GoogleReviews
             // placeId="ChIJ_TB4z7-JbIcRsXgIetzV1uU"
             // apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}

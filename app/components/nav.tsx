@@ -40,7 +40,7 @@ const Nav = () => {
               <NavItems />
             </div>
             {/* end of column */}
-            <div className="lg:w-1/6 w-5/12 pr-4 flex justify-end items-center">
+            <div className="lg:w-1/4 w-5/12 pr-4 flex justify-end items-center">
               <a
                 href={`tel:+${Phone}`}
                 className="p-1 flex items-center btn-main btn-nav justify-center"

@@ -23,13 +23,13 @@ function Logo() {
           style={{}}
         /> */}
     <div
-      className="flex items-center p-1 logo"
+      className="flex items-center py-2 logo"
       style={{
       }}
     >
       <div
         className="relative flex items-center justify-start logo-container"
-        style={{ width: 200, height: 85 }}
+        style={{ width: 200 }}
       >
         <Image
           src="/logos/Precise-Wolf-Digital-Logo-Circle.png"
@@ -38,7 +38,7 @@ function Logo() {
           height={55}
           className="absolute logo-bg"
           style={{
-            top: "13px",
+            top: "0px",
             left: "-5px",
             transform: "translate(-50%,-50%)",
           }}

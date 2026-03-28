@@ -20,6 +20,7 @@ function Footer() {
         className="pt-8 pb-20 text-black"
         style={{
           position: "relative",
+          zIndex:1
         }}
       >
         <div className="max-w-screen-xl mx-auto px-4">

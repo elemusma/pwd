@@ -3,12 +3,15 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
 export default function Main() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const canvasRef    = useRef<HTMLCanvasElement>(null);
+  const overlayRef   = useRef<HTMLCanvasElement>(null);
+  const starsRef     = useRef<THREE.Mesh[]>([]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
+    // ─── Primary shader renderer ──────────────────────────────────────────────
     const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: false });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -169,6 +172,47 @@ export default function Main() {
 
     scene.add(new THREE.Mesh(new THREE.PlaneGeometry(2, 2), material));
 
+    // ─── Overlay renderer for floating dots ──────────────────────────────────
+    const overlayCanvas = overlayRef.current;
+    if (!overlayCanvas) return;
+
+    const overlayRenderer = new THREE.WebGLRenderer({
+      canvas: overlayCanvas,
+      antialias: true,
+      alpha: true,   // transparent so shader shows through
+    });
+    overlayRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+    overlayRenderer.setSize(window.innerWidth, window.innerHeight);
+    overlayRenderer.setClearColor(0x000000, 0); // fully transparent
+
+    const overlayScene  = new THREE.Scene();
+    const overlayCamera = new THREE.PerspectiveCamera(
+      75,
+      window.innerWidth / window.innerHeight,
+      0.1,
+      1000,
+    );
+    overlayCamera.position.setZ(30);
+    overlayCamera.position.setX(-3);
+
+    // Ambient light so dots are always visible
+    overlayScene.add(new THREE.AmbientLight(0xffffff, 1.5));
+
+    // Spawn 200 floating dots, same as main-old
+    const dotGeometry = new THREE.SphereGeometry(0.12, 24, 24);
+    const dotMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
+
+    for (let i = 0; i < 200; i++) {
+      const star = new THREE.Mesh(dotGeometry, dotMaterial);
+      const [x, y, z] = Array(3)
+        .fill(null)
+        .map(() => THREE.MathUtils.randFloatSpread(100));
+      star.position.set(x, y, z);
+      overlayScene.add(star);
+      starsRef.current.push(star);
+    }
+
+    // ─── Shared event handlers ────────────────────────────────────────────────
     const N = 5;
     let maxScroll = 1, tgt = 0, smooth = 0;
 
@@ -182,54 +226,97 @@ export default function Main() {
     const onResize = () => {
       renderer.setSize(window.innerWidth, window.innerHeight);
       uniforms.uR.value.set(window.innerWidth, window.innerHeight);
+
+      overlayRenderer.setSize(window.innerWidth, window.innerHeight);
+      overlayCamera.aspect = window.innerWidth / window.innerHeight;
+      overlayCamera.updateProjectionMatrix();
     };
     window.addEventListener("resize", onResize, { passive: true });
 
+    // ─── Animation loop ───────────────────────────────────────────────────────
     const t0 = performance.now();
     let lastNow = t0;
     let rafId: number;
 
     const animate = (now: number) => {
-  rafId = requestAnimationFrame(animate);
-  const dt = Math.min((now - lastNow) / 1000, 0.05);
-  lastNow = now;
-  smooth += (tgt - smooth) * (1 - Math.exp(-dt * 8));
-  const raw = smooth * (N - 1);
-  const si  = Math.min(Math.floor(raw), N - 2);
-  uniforms.uT.value  = (now - t0) / 1000;
-  uniforms.uS.value  = smooth;
-  uniforms.uSc.value = si;
-  uniforms.uBl.value = raw - si;
+      rafId = requestAnimationFrame(animate);
 
-  // midday (0.15–0.55) is bright, everything else is dark
-  const isDark = smooth < 0.15 || smooth > 0.55;
-  document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+      const dt = Math.min((now - lastNow) / 1000, 0.05);
+      lastNow = now;
 
-  renderer.render(scene, camera);
-};
+      // Shader scroll uniforms
+      smooth += (tgt - smooth) * (1 - Math.exp(-dt * 8));
+      const raw = smooth * (N - 1);
+      const si  = Math.min(Math.floor(raw), N - 2);
+      uniforms.uT.value  = (now - t0) / 1000;
+      uniforms.uS.value  = smooth;
+      uniforms.uSc.value = si;
+      uniforms.uBl.value = raw - si;
+
+      // Theme toggle
+      const isDark = smooth < 0.15 || smooth > 0.55;
+      document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+
+      // Render shader background
+      renderer.render(scene, camera);
+
+      // Animate floating dots — sine bob + slight random drift (same as main-old)
+      const t = uniforms.uT.value;
+      starsRef.current.forEach((star) => {
+        star.position.y += Math.sin(t * 1.0) * 0.005;           // gentle vertical bob
+        star.position.x += Math.random() * 0.002 - 0.001;      // slow random drift
+        star.position.z += Math.random() * 0.002 - 0.001;
+      });
+
+      // Render dots on top
+      overlayRenderer.render(overlayScene, overlayCamera);
+    };
+
     rafId = requestAnimationFrame(animate);
 
+    // ─── Cleanup ──────────────────────────────────────────────────────────────
     return () => {
       cancelAnimationFrame(rafId);
       renderer.dispose();
       material.dispose();
+      overlayRenderer.dispose();
+      dotGeometry.dispose();
+      dotMaterial.dispose();
+      starsRef.current.forEach((star) => overlayScene.remove(star));
+      starsRef.current = [];
       window.removeEventListener("scroll", updateScroll);
       window.removeEventListener("resize", onResize);
     };
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      style={{
-        position: "fixed",
-        inset: 0,
-        width: "100vw",
-        height: "100vh",
-        zIndex: 0,
-        pointerEvents: "none",
-        display: "block",
-      }}
-    />
+    <>
+      {/* Shader background */}
+      <canvas
+        ref={canvasRef}
+        style={{
+          position: "fixed",
+          inset: 0,
+          width: "100vw",
+          height: "100vh",
+          zIndex: 0,
+          pointerEvents: "none",
+          display: "block",
+        }}
+      />
+      {/* Floating dots overlay — transparent WebGL canvas on top */}
+      <canvas
+        ref={overlayRef}
+        style={{
+          position: "fixed",
+          inset: 0,
+          width: "100vw",
+          height: "100vh",
+          zIndex: 1,
+          pointerEvents: "none",
+          display: "block",
+        }}
+      />
+    </>
   );
 }
