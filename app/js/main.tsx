@@ -13,7 +13,7 @@ export default function Main() {
 
     // ─── Primary shader renderer ──────────────────────────────────────────────
     const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: false });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1)); // was 1.5
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setClearColor(0x0a0a0f, 1);
 
@@ -37,8 +37,8 @@ export default function Main() {
         uniform float uT, uS, uSc, uBl;
 
         #define PI 3.14159265359
-        #define MARCH_STEPS 22
-        #define REFINE_STEPS 5
+        #define MARCH_STEPS 12
+        #define REFINE_STEPS 3
 
         float sat(float x){return clamp(x,0.0,1.0);}
         float smoother(float x){x=sat(x);return x*x*x*(x*(x*6.0-15.0)+10.0);}
@@ -179,11 +179,11 @@ export default function Main() {
     const overlayRenderer = new THREE.WebGLRenderer({
       canvas: overlayCanvas,
       antialias: true,
-      alpha: true,   // transparent so shader shows through
+      alpha: true,
     });
-    overlayRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+    overlayRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1)); // was 1.5
     overlayRenderer.setSize(window.innerWidth, window.innerHeight);
-    overlayRenderer.setClearColor(0x000000, 0); // fully transparent
+    overlayRenderer.setClearColor(0x000000, 0);
 
     const overlayScene  = new THREE.Scene();
     const overlayCamera = new THREE.PerspectiveCamera(
@@ -195,10 +195,8 @@ export default function Main() {
     overlayCamera.position.setZ(30);
     overlayCamera.position.setX(-3);
 
-    // Ambient light so dots are always visible
     overlayScene.add(new THREE.AmbientLight(0xffffff, 1.5));
 
-    // Spawn 200 floating dots, same as main-old
     const dotGeometry = new THREE.SphereGeometry(0.12, 24, 24);
     const dotMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
 
@@ -237,14 +235,17 @@ export default function Main() {
     const t0 = performance.now();
     let lastNow = t0;
     let rafId: number;
+    const FRAME_BUDGET = 1000 / 30; // ~30fps cap
 
     const animate = (now: number) => {
       rafId = requestAnimationFrame(animate);
 
+      // Skip frame if under budget — caps to ~30fps
+      if (now - lastNow < FRAME_BUDGET) return;
+
       const dt = Math.min((now - lastNow) / 1000, 0.05);
       lastNow = now;
 
-      // Shader scroll uniforms
       smooth += (tgt - smooth) * (1 - Math.exp(-dt * 8));
       const raw = smooth * (N - 1);
       const si  = Math.min(Math.floor(raw), N - 2);
@@ -253,22 +254,18 @@ export default function Main() {
       uniforms.uSc.value = si;
       uniforms.uBl.value = raw - si;
 
-      // Theme toggle
       const isDark = smooth < 0.15 || smooth > 0.55;
       document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
 
-      // Render shader background
       renderer.render(scene, camera);
 
-      // Animate floating dots — sine bob + slight random drift (same as main-old)
       const t = uniforms.uT.value;
       starsRef.current.forEach((star) => {
-        star.position.y += Math.sin(t * 1.0) * 0.005;           // gentle vertical bob
-        star.position.x += Math.random() * 0.002 - 0.001;      // slow random drift
+        star.position.y += Math.sin(t * 1.0) * 0.005;
+        star.position.x += Math.random() * 0.002 - 0.001;
         star.position.z += Math.random() * 0.002 - 0.001;
       });
 
-      // Render dots on top
       overlayRenderer.render(overlayScene, overlayCamera);
     };
 
@@ -291,7 +288,6 @@ export default function Main() {
 
   return (
     <>
-      {/* Shader background */}
       <canvas
         ref={canvasRef}
         style={{
@@ -304,7 +300,6 @@ export default function Main() {
           display: "block",
         }}
       />
-      {/* Floating dots overlay — transparent WebGL canvas on top */}
       <canvas
         ref={overlayRef}
         style={{
