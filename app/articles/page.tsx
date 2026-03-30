@@ -184,7 +184,7 @@ export default async function ArticlesPage(props: {
                         </p>
 
                         {/* Link */}
-                        <span className="mb-4 inline-block">Read more →</span>
+                        <span className="mb-4 inline-block text-black">Read more →</span>
                       </div>
                     </Link>
                   </div>
