@@ -1,3 +1,58 @@
+@keyframes rotate-infinite {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-circle {
+  animation: rotate-infinite 35s linear infinite;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+.precise-wolf-digital-logo {
+  g {
+    &.precise-wolf-logo-text {
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  g.logo-circle {
+    * {
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  &:hover {
+    g.precise-wolf-logo-text {
+      fill: var(--accent-primary);
+    }
+
+    g.logo-circle {
+      * {
+        stroke: var(--accent-primary);
+      }
+    }
+  }
+}
+
+.text-white {
+  g.logo-circle {
+    * {
+      stroke: white;
+    }
+  }
+
+  .precise-wolf-logo-text,
+  .site-created-text * {
+    fill: white;
+  }
+}
+
 /* In your global CSS */
 .do-not-hide .conditional-visible {
   display: block;

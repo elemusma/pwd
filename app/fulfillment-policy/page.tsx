@@ -96,8 +96,8 @@ const policyData = {
     },
   ],
   contactInfo: {
-    email: "info@latinowebstudio.com",
-    phone: "(303) 927-8228",
+    email: "ted@precisewolf.com",
+    phone: "303.927.8228",
   },
 };
 
@@ -201,7 +201,7 @@ export default function FulfillmentPolicyPage() {
               ],
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "info@latinowebstudio.com",
+                email: "ted@precisewolf.com",
                 contactType: "customer support",
                 telephone: "+1-303-927-8228",
               },
@@ -210,7 +210,7 @@ export default function FulfillmentPolicyPage() {
         }}
       />
 
-      <section className="pt-[100px] pb-[100px] bg-[#f7f7f7]">
+      <section className="pt-[100px] pb-[100px]">
         <div className="">
           <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
             <div className="mb-12">

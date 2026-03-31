@@ -13,7 +13,7 @@ function Footer() {
   const submitButtonText =
     pathname === "/practice-areas/ecommerce"
       ? `I build scalable eCommerce platforms with custom user roles, pricing logic, and workflows tailored to how your business operates in ${currentYear}.`
-      : `A good-looking site that nobody finds or trusts isn't doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you in ${currentYear}.`;
+      : `A good-looking site that nobody finds or trusts isn't doing its job. I fix both prolems and create content that makes your clients find you when they're actively searching for an expert like you in ${currentYear}.`;
   return (
     <>
       <footer
@@ -28,7 +28,7 @@ function Footer() {
             <div className="lg:w-1/3 w-full px-4">
               <div className="lg:w-full w-7/12">
                 <div className="do-not-hide">
-                  <Link href="/">
+                  <Link href="/" className="inline-block">
                     <Logo />
                   </Link>
                 </div>

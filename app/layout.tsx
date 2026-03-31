@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   title:
     "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
   description:
-    "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you.",
+    "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both prolems and create content that makes your clients find you when they're actively searching for an expert like you.",
   metadataBase: new URL("https://precisewolf.com"), // required for relative OG URLs
   alternates: {
     canonical: "https://precisewolf.com", // ✅ correct canonical
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title:
       "Get More Leads & Clients - Show Up in Google & AI Results - Precise Wolf Digital",
     description:
-      "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems. I create content that makes your clients find you when they're actively searching for an expert like you.",
+      "A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both prolems and create content that makes your clients find you when they're actively searching for an expert like you.",
     url: "https://precisewolf.com",
     siteName: "Precise Wolf Digital",
     images: [

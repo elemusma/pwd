@@ -102,7 +102,7 @@ export default function Home() {
                 {/* <h2>iOS, Android, &amp; Web Apps</h2> */}
                 {/* <div className="lg:w-9/12 w-1/9"> */}
                 <p className="text-md mt-4 mb-4">
-                  A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems. I create content that makes your clients find you when they&apos;re actively searching for an expert like you. 
+                  A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both prolems and create content that makes your clients find you when they&apos;re actively searching for an expert like you. 
                 </p>
                 {/* <Login /> */}
                 {/* </div> */}

@@ -109,7 +109,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: `"Precise Wolf Digital" <${process.env.GMAIL_USER}>`,
-      to: "info@latinowebstudio.com",
+      to: "ted@precisewolf.com",
       subject: `Contact: "${user_name}"`,
       html: `<table style="background-color: #f7f7f7; width: 100%;">
 <tbody>
@@ -143,7 +143,7 @@ export async function POST(req: Request) {
 </tr>
 <tr>
 <td>Have questions about the form submission or the website?
-Reach out to your web support at <a href="mailto:info@latinowebstudio.com">info@latinowebstudio.com</a></td>
+Reach out to your web support at <a href="mailto:ted@precisewolf.com">ted@precisewolf.com</a></td>
 </tr>
 </tbody>
 </table>

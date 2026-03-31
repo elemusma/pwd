@@ -1,1 +1,6 @@
-{}
+{
+  "/page": "app/page.js",
+  "/fulfillment-policy/page": "app/fulfillment-policy/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/code-snippets/features-dropdown/page": "app/code-snippets/features-dropdown/page.js"
+}

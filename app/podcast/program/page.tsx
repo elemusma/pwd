@@ -443,7 +443,7 @@ export default function PodcastProgram() {
               {
                 icon: "✉️",
                 label: "Email",
-                value: "info@latinowebstudio.com",
+                value: "ted@precisewolf.com",
               },
               {
                 icon: "🌐",
