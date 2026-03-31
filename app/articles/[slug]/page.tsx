@@ -120,7 +120,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   return (
     <>
       <Main />
-      <main className="pt-[80px]">
+      <main className="lg:pt-[70px] pt-[30px]">
         <div className="bg-white">
           <article className="max-w-screen-lg mx-auto pt-[50px] px-4 py-8 single-post bg-white">
             {/* Featured Image */}

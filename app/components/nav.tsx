@@ -24,7 +24,7 @@ const Nav = () => {
         style={{ zIndex: "100", boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }}
       >
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center -mx-4">
             <div className="lg:w-1/3 w-5/12 pl-4">
               <Link href="/">
                 <Logo />

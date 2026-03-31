@@ -28,7 +28,7 @@ function Logo() {
       data-name="Layer 2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1560.29 510.25"
-      style={{width:200}}
+      style={{width:200,maxWidth:"100%"}}
     >
       <defs>
         <style>{`
