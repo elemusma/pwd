@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://latinowebstudio.com",
+  siteUrl: "https://precisewolf.com",
   generateRobotsTxt: true,
   changefreq: "weekly",
   priority: 0.7,
