@@ -18,10 +18,11 @@
       "static/css/app/podcast/page.css",
       "static/chunks/app/podcast/page.js"
     ],
-    "/_not-found/page": [
+    "/podcast/program/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/podcast/program/page.css",
+      "static/chunks/app/podcast/program/page.js"
     ]
   }
 }

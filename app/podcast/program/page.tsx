@@ -95,7 +95,7 @@ export default function PodcastProgram() {
       <section className="py-24 px-4 bg-gray-900">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-center">
-            Episode Structure - 30 minutes total
+            Episode Structure - 60 minutes total
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -302,7 +302,7 @@ export default function PodcastProgram() {
                 num: "2",
                 title: "Memorable Experience",
                 description:
-                  "Can you share a story—good or bad—about working with an expert witness that really stood out to you? (No names needed, just the lesson or takeaway.)",
+                  "Can you share a story, whether it's good or bad about working with an expert witness that really stood out to you? (No names needed, just the lesson or takeaway.)",
               },
               {
                 num: "3",
@@ -443,12 +443,12 @@ export default function PodcastProgram() {
               {
                 icon: "✉️",
                 label: "Email",
-                value: "ted@precisewolf.com",
+                value: "Ted@PreciseWolf.com",
               },
               {
                 icon: "🌐",
                 label: "Website",
-                value: "LatinoWebStudio.com/Podcast",
+                value: "PreciseWolf.com/Podcast",
               },
             ].map((contact, idx) => (
               <div
