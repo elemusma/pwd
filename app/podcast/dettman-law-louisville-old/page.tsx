@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     title: "Brian - Advice from a Litigation Attorney",
     description:
       "A conversation with trial attorney Brian about how lawyers choose expert witnesses, what makes a professional website, and the importance of credibility in expert witness marketing.",
-    url: "https://latinowebstudio.com/podcast/dettman-law-louisville",
+    url: "https://www.precisewolf.com/podcast/dettman-law-louisville",
     type: "article",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/Dettman-Law-Louisville.jpg",
+        url: "https://www.precisewolf.com/podcast/Dettman-Law-Louisville.jpg",
         width: 1200,
         height: 630,
         alt: "Brian Podcast Episode - Precise Wolf Digital",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/dettman-law-louisville/",
+    canonical: "https://www.precisewolf.com/podcast/dettman-law-louisville/",
   },
 };
 
@@ -43,7 +43,7 @@ export default function PodcastEpisodeBrian() {
             name: "Brian - Advice from a Litigation Attorney",
             description:
               "A conversation with trial attorney Brian about how lawyers choose expert witnesses, what makes a professional website, and the importance of credibility in expert witness marketing.",
-            url: "https://latinowebstudio.com/podcast/dettman-law-louisville/",
+            url: "https://www.precisewolf.com/podcast/dettman-law-louisville/",
             datePublished: "2025-10-18",
             dateModified: "2025-10-18",
             isPartOf: {
@@ -51,24 +51,24 @@ export default function PodcastEpisodeBrian() {
               name: "Brian Guest in Podcast",
             },
             image:
-              "https://latinowebstudio.com/podcast/dettman-law-louisville.jpg",
+              "https://www.precisewolf.com/podcast/dettman-law-louisville.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/podcast/dettman-law-louisville/",
+                "https://www.precisewolf.com/podcast/dettman-law-louisville/",
             },
             inLanguage: "en",
             keywords:
@@ -207,7 +207,7 @@ export default function PodcastEpisodeBrian() {
                 In this conversation with Louisville, Kentucky trial attorney
                 Brian, we discussed the critical factors attorneys consider when
                 evaluating expert witnesses online, what makes a{" "}
-                <Link href="https://latinowebstudio.com/practice-areas/web-design">
+                <Link href="https://www.precisewolf.com/practice-areas/web-design">
                   professional website
                 </Link>
                 , and how experts can market themselves without compromising

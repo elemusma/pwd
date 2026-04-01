@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "Free Blog Article | Precise Wolf Digital",
     description:
       "Get a professionally written article that showcases your expertise, boosts your visibility online, and helps attorneys find you for free.",
-    url: "https://latinowebstudio.com/free-blog-article",
+    url: "https://www.precisewolf.com/free-blog-article",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
+        url: "https://www.precisewolf.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
         width: 1200,
         height: 630,
         alt: "Inside the Attorney's Mind Podcast - Precise Wolf Digital",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/free-blog-article",
+    canonical: "https://www.precisewolf.com/free-blog-article",
   },
 };
 
@@ -40,7 +40,7 @@ export default function FreeBlogArticle() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Free Blog Article | Precise Wolf Digital",
-            url: "https://latinowebstudio.com/free-blog-article",
+            url: "https://www.precisewolf.com/free-blog-article",
             description:
               "Get a professionally written article that showcases your expertise, boosts your visibility online, and helps attorneys find you for free.",
             mainEntity: {
@@ -65,7 +65,7 @@ export default function FreeBlogArticle() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/logo.png",
+                url: "https://www.precisewolf.com/logo.png",
               },
             },
           }),

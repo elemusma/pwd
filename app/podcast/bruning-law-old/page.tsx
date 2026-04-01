@@ -17,11 +17,11 @@ export const metadata: Metadata = {
       "Patrick Hinrichs with Bruning Law  - How Plaintiff Litigation Attorneys Evaluate Expert Witnesses",
     description:
       "A conversation with personal injury attorney Patrick Hinrichs from Bruning Law Firm about how attorneys evaluate expert witnesses, what attorneys actually look for on expert websites, and how overusing the same expert can damage your credibility.",
-    url: "https://latinowebstudio.com/podcast/bruning-law",
+    url: "https://www.precisewolf.com/podcast/bruning-law",
     type: "article",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/bruning-legal-st-louis.jpg",
+        url: "https://www.precisewolf.com/podcast/bruning-legal-st-louis.jpg",
         width: 1200,
         height: 630,
         alt: "Patrick Hinrichs Podcast Episode - Precise Wolf Digital",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/bruning-law/",
+    canonical: "https://www.precisewolf.com/podcast/bruning-law/",
   },
 };
 
@@ -45,7 +45,7 @@ export default function PodcastEpisodePatrick() {
             name: "Patrick Hinrichs - Expert Witness Selection & Personal Injury Law",
             description:
               "A conversation with personal injury attorney Patrick Hinrichs about how attorneys evaluate expert witnesses, what makes an effective website for experts, the dangers of overusing the same expert, and how to build credibility in litigation.",
-            url: "https://latinowebstudio.com/podcast/bruning-law/",
+            url: "https://www.precisewolf.com/podcast/bruning-law/",
             datePublished: "2025-11-15",
             dateModified: "2025-11-15",
             isPartOf: {
@@ -53,23 +53,23 @@ export default function PodcastEpisodePatrick() {
               name: "Expert Witness Marketing Podcast",
             },
             image:
-              "https://latinowebstudio.com/podcast/bruning-legal-st-louis.jpg",
+              "https://www.precisewolf.com/podcast/bruning-legal-st-louis.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/podcast/bruning-law/",
+              "@id": "https://www.precisewolf.com/podcast/bruning-law/",
             },
             inLanguage: "en",
             keywords:
@@ -199,7 +199,7 @@ export default function PodcastEpisodePatrick() {
                 In this conversation with St. Louis personal injury attorney
                 Patrick Hinrichs from Bruning Law Firm, we discussed what
                 attorneys actually look for when hiring expert witnesses, how{" "}
-                <Link href="https://latinowebstudio.com/practice-areas/web-design">
+                <Link href="https://www.precisewolf.com/practice-areas/web-design">
                   professional websites
                 </Link>{" "}
                 and credibility impact hiring decisions, and the critical
@@ -503,7 +503,7 @@ export default function PodcastEpisodePatrick() {
                 beneficial to me is having some sort of video on your website,
                 maybe a highlight video or just a basic video introducing
                 yourself. As an attorney{" "}
-                <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+                <Link href="https://www.precisewolf.com/articles/marketing-strategies">
                   marketing for an expert
                 </Link>
                 , having this content allows me to see you, listen to you, and

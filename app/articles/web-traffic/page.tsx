@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "What Is Web Traffic? How to Turn Attorney Visits Into Cases - Precise Wolf Digital",
     description:
       "Discover how expert witnesses can use web traffic metrics to turn attorney visits into consultations and cases. Explore the tools attorneys use to find you online.",
-    url: `https://latinowebstudio.com/articles/web-traffic`,
+    url: `https://www.precisewolf.com/articles/web-traffic`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/web-traffic-01.png`,
+        url: `https://www.precisewolf.com/articles/web-traffic-01.png`,
         width: 1200,
         height: 630,
         alt: "Expert Witness Web Traffic Strategy",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/web-traffic", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/web-traffic", // Replace with the actual canonical URL
   },
 };
 
@@ -49,25 +49,25 @@ export default function WhatHowExpertWitnesses() {
               "What Is Web Traffic? How to Turn Attorney Visits Into Cases",
             description:
               "Learn what web traffic means for expert witnesses and how to convert attorney visits into real case inquiries. Discover the metrics and tools that reveal attorney interest.",
-            image: "https://latinowebstudio.com/articles/web-traffic-01.png",
+            image: "https://www.precisewolf.com/articles/web-traffic-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-07-02",
             dateModified: "2025-07-02",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/web-traffic",
+              "@id": "https://www.precisewolf.com/articles/web-traffic",
             },
             inLanguage: "en",
             keywords:
@@ -180,7 +180,7 @@ export default function WhatHowExpertWitnesses() {
             in a contact form submission, email inquiry, or phone call about a
             potential case (mostly likely a phone call). That&apos;s the end
             goal—not just more visits, but{" "}
-            <Link href="https://latinowebstudio.com/articles/more-cases">
+            <Link href="https://www.precisewolf.com/articles/more-cases">
               more case-related conversations
             </Link>
             .
@@ -210,7 +210,7 @@ export default function WhatHowExpertWitnesses() {
             leave. A high bounce rate on your home or profile page might mean
             attorneys aren&apos;t finding the info they need or don&apos;t
             immediately{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">trust</Link>{" "}
+            <Link href="https://www.precisewolf.com/articles/eeat">trust</Link>{" "}
             your expertise.
           </p>
           <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
@@ -254,7 +254,7 @@ export default function WhatHowExpertWitnesses() {
             Tools like Google Analytics use tracking scripts to record what
             attorneys do on your site—how they found you, which pages they
             viewed, and how long they stayed. This helps you understand which{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               marketing strategies
             </Link>{" "}
             work best.
@@ -287,7 +287,7 @@ export default function WhatHowExpertWitnesses() {
             </li>
             <li>
               <strong>Ubersuggest</strong> – Helps identify{" "}
-              <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+              <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
                 keywords attorneys
               </Link>{" "}
               might use to find your specialty.
@@ -315,7 +315,7 @@ export default function WhatHowExpertWitnesses() {
           </p>
           <ul className="list-disc pl-5 text-base text-gray-700 mb-4 space-y-2">
             <li>
-              <Link href="https://latinowebstudio.com/practice-areas/seo">
+              <Link href="https://www.precisewolf.com/practice-areas/seo">
                 Search Engine Optimization (SEO)
               </Link>
               : Use clear titles and meta descriptions with your specialty and
@@ -380,7 +380,7 @@ export default function WhatHowExpertWitnesses() {
             analytics tools to track referral sources, keywords, and session
             recordings. Tools like GA4 can show if visitors are coming from law
             firm domains or{" "}
-            <Link href="https://latinowebstudio.com/articles/expert-witness-directories">
+            <Link href="https://www.precisewolf.com/articles/expert-witness-directories">
               legal directories
             </Link>
             .

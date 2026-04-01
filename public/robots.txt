@@ -6,4 +6,4 @@ Allow: /
 Host: https://latinowebstudio.com
 
 # Sitemaps
-Sitemap: https://latinowebstudio.com/sitemap.xml
+Sitemap: https://www.precisewolf.com/sitemap.xml

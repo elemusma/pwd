@@ -17,11 +17,11 @@ export const metadata: Metadata = {
       "Immigration Myths, Rights, and Realities – Conversation with Attorney Karen from Elevation Law",
     description:
       "Immigration attorney Karen from Elevation Law joins Ted Martinez to debunk common myths, explain the complexities of U.S. immigration law, share crucial tips on handling ICE encounters, and provide resources for families navigating legal status issues.",
-    url: `https://latinowebstudio.com/podcast/karen-elevation-law/`,
+    url: `https://www.precisewolf.com/podcast/karen-elevation-law/`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/podcast/karen-elevation-law.jpg`,
+        url: `https://www.precisewolf.com/podcast/karen-elevation-law.jpg`,
         width: 1200,
         height: 630,
         alt: "Karen Immigration Attorney Podcast Episode - Precise Wolf Digital",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/karen-elevation-law",
+    canonical: "https://www.precisewolf.com/podcast/karen-elevation-law",
   },
 };
 
@@ -45,7 +45,7 @@ export default function PodcastEpisodeKarenElevationLaw() {
             name: "Immigration Myths, Rights, and Realities – Conversation with Attorney Karen from Elevation Law",
             description:
               "Immigration attorney Karen from Elevation Law joins Ted Martinez to debunk common myths, explain the complexities of U.S. immigration law, share crucial tips on handling ICE encounters, and provide resources for families navigating legal status issues.",
-            url: "https://latinowebstudio.com/podcast/karen-elevation-law/",
+            url: "https://www.precisewolf.com/podcast/karen-elevation-law/",
             datePublished: "2025-10-06",
             dateModified: "2025-10-06",
             isPartOf: {
@@ -53,23 +53,23 @@ export default function PodcastEpisodeKarenElevationLaw() {
               name: "Precise Wolf Digital Podcast",
             },
             image:
-              "https://latinowebstudio.com/podcast/karen-elevation-law.jpg",
+              "https://www.precisewolf.com/podcast/karen-elevation-law.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/podcast/karen-elevation-law/",
+              "@id": "https://www.precisewolf.com/podcast/karen-elevation-law/",
             },
             inLanguage: "en",
             keywords:
@@ -78,7 +78,7 @@ export default function PodcastEpisodeKarenElevationLaw() {
               "@type": "ListenAction",
               target: [
                 "https://www.youtube.com/watch?v=FgQGKaWg-Do",
-                "https://latinowebstudio.com/podcast/karen-elevation-law/",
+                "https://www.precisewolf.com/podcast/karen-elevation-law/",
               ],
             },
             performer: {

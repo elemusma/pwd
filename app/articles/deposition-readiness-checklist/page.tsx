@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Deposition Preparation Content to Drive Legal Leads for Expert Witnesses - Precise Wolf Digital",
     description:
       "As an expert witness you operate in a highly specialized market, where visibility and credibility directly impact case acquisition.",
-    url: `https://latinowebstudio.com/articles/deposition-readiness-checklist`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/deposition-readiness-checklist`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Deposition-Readiness-Checklists-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Deposition-Readiness-Checklists-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Checklist to Casebook: How Expert Witnesses Can Use Deposition Preparation Content to Drive Legal Leads - Precise Wolf Digital",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   // ✅ Add this block:
   alternates: {
     canonical:
-      "https://latinowebstudio.com/articles/deposition-readiness-checklist",
+      "https://www.precisewolf.com/articles/deposition-readiness-checklist",
   },
 };
 
@@ -50,25 +50,25 @@ export default function DepositionReadinessChecklist() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/deposition-readiness-checklist",
+                "https://www.precisewolf.com/articles/deposition-readiness-checklist",
             },
             headline:
               "Deposition Preparation Content to Drive Legal Leads for Expert Witnesses",
             description:
               "As an expert witness you operate in a highly specialized market, where visibility and credibility directly impact case acquisition.",
             image:
-              "https://latinowebstudio.com/articles/Deposition-Readiness-Checklists-01.png",
+              "https://www.precisewolf.com/articles/Deposition-Readiness-Checklists-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-05-24",
@@ -102,7 +102,7 @@ export default function DepositionReadinessChecklist() {
           </h2>
           <p className="mb-4 text-gray-700">
             As an{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               expert witness
             </Link>{" "}
             you operate in a highly specialized market, where visibility and

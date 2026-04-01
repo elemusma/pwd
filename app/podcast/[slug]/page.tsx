@@ -100,13 +100,13 @@ export async function generateMetadata({
     openGraph: {
       title: `${decodedTitle}`,
       description: decodedDescription,
-      url: `https://latinowebstudio.com/podcast/${slug}`,
+      url: `https://www.precisewolf.com/podcast/${slug}`,
       type: "article",
       images: [
         {
           url:
             post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ??
-            "https://latinowebstudio.com/default-og-image.jpg",
+            "https://www.precisewolf.com/default-og-image.jpg",
           width: 1200,
           height: 630,
           alt: decodedTitle,
@@ -114,7 +114,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: `https://latinowebstudio.com/podcast/${slug}`,
+      canonical: `https://www.precisewolf.com/podcast/${slug}`,
     },
   };
 }

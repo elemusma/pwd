@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "About Tadeo Martinez | Precise Wolf Digital - SEO & Web Design for Expert Witnesses",
     description:
       "Discover the mission behind Precise Wolf Digital and how Tadeo Martinez helps expert witnesses increase visibility and win more cases.",
-    url: "https://latinowebstudio.com/about",
+    url: "https://www.precisewolf.com/about",
     type: "profile",
     images: [
       {
-        url: "https://latinowebstudio.com/assets/Mark-Tadeo-Latino-Web-Studio.jpg",
+        url: "https://www.precisewolf.com/assets/Mark-Tadeo-Latino-Web-Studio.jpg",
         width: 1200,
         height: 630,
         alt: "Tadeo Martinez - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/about",
+    canonical: "https://www.precisewolf.com/about",
   },
 };
 
@@ -56,12 +56,12 @@ export default function AboutPage() {
                 url: "https://latinowebstudio.com",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                  url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
                 },
               },
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
               image:
-                "https://latinowebstudio.com/assets/Mark-Tadeo-Latino-Web-Studio.jpg",
+                "https://www.precisewolf.com/assets/Mark-Tadeo-Latino-Web-Studio.jpg",
               sameAs: [
                 "https://www.linkedin.com/in/ted-martinez-seo/",
                 "https://latinowebstudio.com",
@@ -69,7 +69,7 @@ export default function AboutPage() {
             },
             description:
               "Learn about Precise Wolf Digital and founder Ted Martinez expert in SEO and web design for expert witnesses.",
-            url: "https://latinowebstudio.com/about",
+            url: "https://www.precisewolf.com/about",
           }),
         }}
       />

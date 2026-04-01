@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Deceptive Content - How to Protect Your Reputation as an Expert Witness and Avoid Costly Mistakes - Precise Wolf Digital",
     description:
       "In the digital age, online visibility is inseparable from professional credibility, particularly for expert witnesses involved in legal matters.",
-    url: `https://latinowebstudio.com/articles/deceptive-content`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/deceptive-content`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/deceptive-content-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/deceptive-content-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Checklist to Casebook: How Expert Witnesses Can Use Deposition Preparation Content to Drive Legal Leads - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/deceptive-content",
+    canonical: "https://www.precisewolf.com/articles/deceptive-content",
   },
 };
 
@@ -48,25 +48,25 @@ export default function DeceptiveContent() {
             "@type": "BlogPosting",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/deceptive-content",
+              "@id": "https://www.precisewolf.com/articles/deceptive-content",
             },
             headline:
               "Deceptive Content - How to Protect Your Reputation as an Expert Witness and Avoid Costly Mistakes",
             description:
               "In the digital age, online visibility is inseparable from professional credibility, particularly for expert witnesses involved in legal matters.",
             image:
-              "https://latinowebstudio.com/articles/deceptive-content-01.png",
+              "https://www.precisewolf.com/articles/deceptive-content-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-07-01",
@@ -168,7 +168,7 @@ export default function DeceptiveContent() {
             Framework
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               Google&apos;s E-E-A-T guidelines—Experience, Expertise,
               Authoritativeness, and Trust—play
             </Link>{" "}
@@ -224,7 +224,7 @@ export default function DeceptiveContent() {
             .&quot;
           </p>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               Expert witness&apos; SEO keyword strategies
             </Link>{" "}
             should therefore focus on transactional and commercial terms that
@@ -315,7 +315,7 @@ export default function DeceptiveContent() {
           <p className="text-base text-gray-600 mb-4">
             In a competitive and highly regulated field, expert witnesses who
             invest in these{" "}
-            <Link href="https://latinowebstudio.com/">SEO practices</Link>{" "}
+            <Link href="https://www.precisewolf.com/">SEO practices</Link>{" "}
             position themselves not just as visible resources, but as credible,
             indispensable allies in the pursuit of justice.
           </p>

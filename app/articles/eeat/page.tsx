@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "How Expert Witnesses Can Build Trust Online and Get Found by Lawyers - Precise Wolf Digital",
     description:
       "For expert witnesses, especially those operating within medical, forensic, or financial domains, demonstrating credibility online isn't just advantageous—it's essential.",
-    url: `https://latinowebstudio.com/articles/eeat`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/eeat`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/EEAT-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/EEAT-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "How Expert Witnesses Can Build Trust Online and Get Found by Lawyers - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/eeat", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/eeat", // Replace with the actual canonical URL
   },
 };
 
@@ -48,24 +48,24 @@ export default function EEAT() {
             "@type": "BlogPosting",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/eeat",
+              "@id": "https://www.precisewolf.com/articles/eeat",
             },
             headline:
               "How Expert Witnesses Can Build Trust Online and Get Found by Lawyers",
             description:
               "For expert witnesses, especially those operating within medical, forensic, or financial domains, demonstrating credibility online isn't just advantageous—it's essential.",
-            image: "https://latinowebstudio.com/articles/EEAT-01.png",
+            image: "https://www.precisewolf.com/articles/EEAT-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-05-25",
@@ -98,7 +98,7 @@ export default function EEAT() {
           </h2>
           <p className="mb-4 text-gray-700">
             For{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               expert witnesses
             </Link>
             , especially those operating within medical, forensic, engineering,
@@ -190,7 +190,7 @@ export default function EEAT() {
             Beyond service pages, expert witnesses should develop supporting
             content targeting educational and navigational intent. This may
             include FAQs on testimony procedures, guides to{" "}
-            <Link href="https://latinowebstudio.com/articles/deposition-readiness-checklist">
+            <Link href="https://www.precisewolf.com/articles/deposition-readiness-checklist">
               deposition preparation
             </Link>
             , or summaries of published work. These pieces build topical
@@ -276,7 +276,7 @@ export default function EEAT() {
           </h2>
           <p className="mb-4 text-gray-700">
             Long-term success in{" "}
-            <Link href="https://latinowebstudio.com/">
+            <Link href="https://www.precisewolf.com/">
               legal-intent SEO and CRO
             </Link>{" "}
             depends on continuous measurement and refinement. Platforms like

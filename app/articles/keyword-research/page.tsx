@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Keyword Research Strategies for Expert Witness Visibility - Precise Wolf Digital",
     description:
       "Precise Wolf Digital explains keyword research and technical SEO to help expert witnesses improve visibility among attorneys.",
-    url: `https://latinowebstudio.com/articles/keyword-research`,
+    url: `https://www.precisewolf.com/articles/keyword-research`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/images/articles/Keyword-Research.png`,
+        url: `https://www.precisewolf.com/images/articles/Keyword-Research.png`,
         width: 1200,
         height: 630,
         alt: "Keyword Research for Expert Witnesses",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/keyword-research",
+    canonical: "https://www.precisewolf.com/articles/keyword-research",
   },
 };
 
@@ -56,11 +56,11 @@ export default function KeywordResearch() {
               "keyword research, technical SEO, expert witness marketing, legal SEO, attorney search visibility, content strategy",
             wordCount: 2000,
             image:
-              "https://latinowebstudio.com/images/articles/Keyword-Research.png",
+              "https://www.precisewolf.com/images/articles/Keyword-Research.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
               sameAs: "https://www.linkedin.com/in/tadeomartinez",
             },
             publisher: {
@@ -68,12 +68,12 @@ export default function KeywordResearch() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/images/logo.png",
+                url: "https://www.precisewolf.com/images/logo.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/keyword-research",
+              "@id": "https://www.precisewolf.com/articles/keyword-research",
             },
             isAccessibleForFree: true,
             inLanguage: "en",
@@ -161,7 +161,7 @@ export default function KeywordResearch() {
             Why Keyword Research Matters for Expert Witness Marketing
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               Expert witnesses
             </Link>{" "}
             who wish to be found by attorneys need more than professional
@@ -170,11 +170,11 @@ export default function KeywordResearch() {
             search visibility. It helps uncover the exact phrases attorneys use
             when searching for specialized experts in legal databases or on
             search engines. Proper keyword targeting also improves{" "}
-            <Link href="https://latinowebstudio.com/articles/content-strategy">
+            <Link href="https://www.precisewolf.com/articles/content-strategy">
               content strategy
             </Link>
             , driving{" "}
-            <Link href="https://latinowebstudio.com/articles/web-traffic">
+            <Link href="https://www.precisewolf.com/articles/web-traffic">
               organic traffic
             </Link>{" "}
             to well-designed, authoritative websites.
@@ -201,7 +201,7 @@ export default function KeywordResearch() {
             input into Google or other platforms. This process shapes your
             content strategy, informs your website structure, and helps improve
             organic{" "}
-            <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+            <Link href="https://www.precisewolf.com/articles/google-search-rankings">
               search rankings
             </Link>
             . For expert witnesses, understanding how attorneys search for
@@ -214,7 +214,7 @@ export default function KeywordResearch() {
             Initial Steps: Identifying Audience Intent and Seed Keywords
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               Attorneys often search
             </Link>{" "}
             using very specific intent-driven queries. Understanding whether a
@@ -251,7 +251,7 @@ export default function KeywordResearch() {
           <p className="text-base text-gray-600 mb-4">
             Industry tools like Google Keyword Planner, Ahrefs, and
             AnswerThePublic help surface keyword data critical to an{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               expert witness&apos;s marketing strategy
             </Link>
             . These tools assist in understanding keyword volume, difficulty,
@@ -307,12 +307,12 @@ export default function KeywordResearch() {
             A strategic content plan uses keyword-driven insights to guide
             articles, case studies, and service page development. Aligning
             keyword strategy with{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               technical SEO
             </Link>{" "}
             (metadata optimization, structured headings, internal linking) and
             strong{" "}
-            <Link href="https://latinowebstudio.com/articles/user-experience-ux">
+            <Link href="https://www.precisewolf.com/articles/user-experience-ux">
               user experience
             </Link>{" "}
             helps attorneys trust your expertise and simplifies site navigation.
@@ -350,7 +350,7 @@ export default function KeywordResearch() {
             content, expert witnesses can improve both credibility and
             visibility. Integrating these practices with web design
             strategies—focused on{" "}
-            <Link href="https://latinowebstudio.com/articles/how-to-improve-page-speed">
+            <Link href="https://www.precisewolf.com/articles/how-to-improve-page-speed">
               site speed
             </Link>
             , usability, and professional credibility signals—amplifies their
@@ -402,7 +402,7 @@ export default function KeywordResearch() {
           <p className="text-base text-gray-600 mb-4">
             The four types include informational, commercial, navigational, and
             transactional keywords—each serving different{" "}
-            <Link href="https://latinowebstudio.com/articles/search-intent">
+            <Link href="https://www.precisewolf.com/articles/search-intent">
               user intents
             </Link>{" "}
             and stages of the search journey.
@@ -421,7 +421,7 @@ export default function KeywordResearch() {
           </h2>
           <p className="text-base text-gray-600 mb-4">
             Strategic keyword research and{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               professional SEO services
             </Link>{" "}
             position you as an expert witnesses for greater visibility where

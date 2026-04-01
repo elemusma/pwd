@@ -12,16 +12,16 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/articles/[slug]/layout": [
+    "/podcast/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/articles/[slug]/layout.js"
+      "static/css/app/podcast/page.css",
+      "static/chunks/app/podcast/page.js"
     ],
-    "/articles/[slug]/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/articles/[slug]/page.css",
-      "static/chunks/app/articles/[slug]/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

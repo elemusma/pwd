@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Schedule a call to explore how Precise Wolf Digital can help grow your business through web design, SEO, and automation.",
   alternates: {
-    canonical: "https://latinowebstudio.com/get-started",
+    canonical: "https://www.precisewolf.com/get-started",
   },
   openGraph: {
     title: "Get Started | Precise Wolf Digital",
     description:
       "Schedule a call to explore how Precise Wolf Digital can help grow your business through web design, SEO, and automation.",
-    url: "https://latinowebstudio.com/get-started",
+    url: "https://www.precisewolf.com/get-started",
     type: "website",
   },
 };
@@ -31,7 +31,7 @@ export default function GetStarted() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Get Started | Precise Wolf Digital",
-            url: "https://latinowebstudio.com/get-started",
+            url: "https://www.precisewolf.com/get-started",
             description:
               "Schedule a call to explore how Precise Wolf Digital can help grow your business through web design, SEO, and automation.",
             mainEntity: {
@@ -56,7 +56,7 @@ export default function GetStarted() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/logo.png",
+                url: "https://www.precisewolf.com/logo.png",
               },
             },
           }),

@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "What Is a Blog Post? Structure, Strategy, and SEO for Expert Visibility - Precise Wolf Digital",
     description:
       "Explore the anatomy, content strategy, and SEO benefits of blogging for expert witnesses aiming to reach legal audiences and build authority online.",
-    url: "https://latinowebstudio.com/articles/what-is-a-blog-post", // Actual article URL
+    url: "https://www.precisewolf.com/articles/what-is-a-blog-post", // Actual article URL
     type: "article",
     images: [
       {
-        url: "https://latinowebstudio.com/articles/Blog-Post-Blog-Index.jpg",
+        url: "https://www.precisewolf.com/articles/Blog-Post-Blog-Index.jpg",
         width: 1200,
         height: 630,
         alt: "What Is a Blog Post? Structure, Strategy, and SEO for Expert Visibility",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/what-is-blog-post",
+    canonical: "https://www.precisewolf.com/articles/what-is-blog-post",
   },
 };
 
@@ -46,14 +46,14 @@ export default function WhatIsBlogPost() {
             "@type": "Article",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/blog/what-is-a-blog-post",
+              "@id": "https://www.precisewolf.com/blog/what-is-a-blog-post",
             },
             headline:
               "What Is a Blog Post? Structure, Strategy, and SEO for Expert Visibility",
             description:
               "Discover how expert witnesses can use blog posts to increase visibility, demonstrate authority, and get found by attorneys.",
             image: [
-              "https://latinowebstudio.com/articles/Blog-Post-Blog-Index.jpg",
+              "https://www.precisewolf.com/articles/Blog-Post-Blog-Index.jpg",
             ],
             author: {
               "@type": "Organization",
@@ -65,7 +65,7 @@ export default function WhatIsBlogPost() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/logo.png",
+                url: "https://www.precisewolf.com/logo.png",
               },
             },
             datePublished: "2025-07-28",
@@ -156,7 +156,7 @@ export default function WhatIsBlogPost() {
           />
           <p className="mb-4 text-base text-gray-700">
             For{" "}
-            <Link href="https://latinowebstudio.com/blog/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/blog/what-how-expert-witness">
               expert witnesses
             </Link>
             , blogs serve as content hubs to showcase subject matter knowledge,
@@ -189,7 +189,7 @@ export default function WhatIsBlogPost() {
           </p>
           <p className="mb-4 text-base text-gray-700">
             Today, expert service blogs form part of{" "}
-            <Link href="https://latinowebstudio.com/blog/marketing-strategies">
+            <Link href="https://www.precisewolf.com/blog/marketing-strategies">
               strategic digital marketing
             </Link>{" "}
             efforts, targeting lawyers searching for case-relevant insights or
@@ -203,14 +203,14 @@ export default function WhatIsBlogPost() {
             Search engines reward updated, relevant content. Blogging with legal
             use cases and expert keyword targeting helps improve your
             site&apos;s authority and visibility in{" "}
-            <Link href="https://latinowebstudio.com/blog/google-search-rankings">
+            <Link href="https://www.precisewolf.com/blog/google-search-rankings">
               search rankings
             </Link>
             .
           </p>
           <p className="mb-4 text-base text-gray-700">
             Blogs also support{" "}
-            <Link href="https://latinowebstudio.com/blog/eeat">
+            <Link href="https://www.precisewolf.com/blog/eeat">
               trust-building
             </Link>
             . Detailed, jargon-free explanations of methodologies or legal
@@ -313,7 +313,7 @@ export default function WhatIsBlogPost() {
           <p className="mb-4 text-base text-gray-700">
             Use tools like Ahrefs, Semrush, or Google&apos;s Keyword Planner for
             your{" "}
-            <Link href="https://latinowebstudio.com/blog/keyword-research">
+            <Link href="https://www.precisewolf.com/blog/keyword-research">
               keyword research
             </Link>{" "}
             to find terms with search volume. Precise Wolf Digital helps clients
@@ -350,7 +350,7 @@ export default function WhatIsBlogPost() {
           <p className="mb-4 text-base text-gray-700">
             Add internal links, optimize metadata, use keyword variations
             naturally. Ensure{" "}
-            <Link href="https://latinowebstudio.com/blog/mobile-responsiveness">
+            <Link href="https://www.precisewolf.com/blog/mobile-responsiveness">
               mobile responsiveness
             </Link>{" "}
             and load speed compliance.
@@ -430,7 +430,7 @@ export default function WhatIsBlogPost() {
           <p className="mb-4 text-base text-gray-700">
             Use CMSs like WordPress or Webflow. Technical users may prefer
             markdown or headless setups. Precise Wolf Digital builds fast,{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/web-design">
+            <Link href="https://www.precisewolf.com/practice-areas/web-design">
               lawyer-optimized websites
             </Link>{" "}
             with integrated blogs.
@@ -451,7 +451,7 @@ export default function WhatIsBlogPost() {
             Use alt tags, H1-H3 structure, mobile formatting, and ensure fast
             load times. These aren&apos;t just SEO tactics—they affect user
             trust and{" "}
-            <Link href="https://latinowebstudio.com/blog/user-experience-ux">
+            <Link href="https://www.precisewolf.com/blog/user-experience-ux">
               attorney experience
             </Link>
             .
@@ -495,7 +495,7 @@ export default function WhatIsBlogPost() {
           </p>
           <p className="mb-4 text-base text-gray-700">
             Precise Wolf Digital partners with expert witnesses to create{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               legally informed, SEO-driven websites and blogs that get found by
               attorneys
             </Link>

@@ -21,11 +21,11 @@ export const metadata: Metadata = {
       "Website Design and Search Engine Optimization Articles - Precise Wolf Digital",
     description:
       "A resource for expert witnesses and anyone wanting to learn more about how to get more clients and phone calls from your website.",
-    url: "https://latinowebstudio.com/articles",
+    url: "https://www.precisewolf.com/articles",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
+        url: "https://www.precisewolf.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
         width: 1200,
         height: 630,
         alt: "Inside the Attorney's Mind Podcast - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles",
+    canonical: "https://www.precisewolf.com/articles",
   },
 };
 
@@ -134,7 +134,7 @@ export default async function ArticlesPage(props: {
               {posts.map((post) => {
                 const ogImage =
                   post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
-                  "https://latinowebstudio.com/default-og-image.jpg"; // fallback
+                  "https://www.precisewolf.com/default-og-image.jpg"; // fallback
 
                 return (
                   <div

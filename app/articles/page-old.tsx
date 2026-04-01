@@ -18,11 +18,11 @@ export const metadata: Metadata = {
       "Web Design & SEO Marketing Tips for Expert Witnesses - Precise Wolf Digital",
     description:
       "Explore expert marketing strategies for expert witnesses. Learn how to attract more legal clients, improve your online presence, and grow your expert witness business with Precise Wolf Digital.",
-    url: `https://latinowebstudio.com/blog`,
+    url: `https://www.precisewolf.com/blog`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/photos/Helping-Expert-Witnesses.jpg`,
+        url: `https://www.precisewolf.com/photos/Helping-Expert-Witnesses.jpg`,
         width: 1200,
         height: 630,
         alt: "Web Design & SEO Marketing Tips for Expert Witnesses",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/blog",
+    canonical: "https://www.precisewolf.com/blog",
   },
 };
 
@@ -47,7 +47,7 @@ export default function NewsPage() {
             name: "Web Design & SEO Marketing Tips for Expert Witnesses",
             description:
               "Explore expert marketing strategies for expert witnesses. Learn how to attract more legal clients, improve your online presence, and grow your expert witness business with Precise Wolf Digital.",
-            url: "https://latinowebstudio.com/blog",
+            url: "https://www.precisewolf.com/blog",
             inLanguage: "en",
             keywords:
               "SEO tips, web design for expert witnesses, marketing for expert witnesses, legal SEO, attorney marketing strategies, website optimization for lawyers, expert witness marketing",
@@ -57,61 +57,61 @@ export default function NewsPage() {
                 {
                   "@type": "ListItem",
                   position: 1,
-                  url: "https://latinowebstudio.com/articles/keyword-cannibalization",
+                  url: "https://www.precisewolf.com/articles/keyword-cannibalization",
                   name: "Keyword Cannibalization: What It Is, Why It Hurts Rankings, and How to Fix It",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
-                  url: "https://latinowebstudio.com/articles/how-to-improve-page-speed",
+                  url: "https://www.precisewolf.com/articles/how-to-improve-page-speed",
                   name: "How to Improve Page Speed for Better SEO and User Experience",
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
-                  url: "https://latinowebstudio.com/articles/web-traffic",
+                  url: "https://www.precisewolf.com/articles/web-traffic",
                   name: "What Is Web Traffic? How to Turn Attorney Visits Into Cases",
                 },
                 {
                   "@type": "ListItem",
                   position: 4,
-                  url: "https://latinowebstudio.com/articles/google-search-rankings",
+                  url: "https://www.precisewolf.com/articles/google-search-rankings",
                   name: "Understanding and Improving Google Search Rankings in 2025",
                 },
                 {
                   "@type": "ListItem",
                   position: 5,
-                  url: "https://latinowebstudio.com/articles/search-intent",
+                  url: "https://www.precisewolf.com/articles/search-intent",
                   name: "How Expert Witnesses Can Use Search Intent to Attract More Attorneys",
                 },
                 {
                   "@type": "ListItem",
                   position: 6,
-                  url: "https://latinowebstudio.com/articles/mobile-responsiveness",
+                  url: "https://www.precisewolf.com/articles/mobile-responsiveness",
                   name: "Mobile Responsiveness for Expert Witness Websites",
                 },
                 {
                   "@type": "ListItem",
                   position: 7,
-                  url: "https://latinowebstudio.com/articles/user-experience-ux",
+                  url: "https://www.precisewolf.com/articles/user-experience-ux",
                   name: "Why Your Website Might Be Costing You Cases—and How UX Can Fix That",
                 },
                 {
                   "@type": "ListItem",
                   position: 8,
-                  url: "https://latinowebstudio.com/articles/keyword-stuffing",
+                  url: "https://www.precisewolf.com/articles/keyword-stuffing",
                   name: "Keyword Stuffing in Content and URLs: Does It Still Work in 2025?",
                 },
                 {
                   "@type": "ListItem",
                   position: 9,
-                  url: "https://latinowebstudio.com/articles/more-cases",
+                  url: "https://www.precisewolf.com/articles/more-cases",
                   name: "Want More Cases? Here's How Lawyers Really Search for Experts Online",
                 },
                 {
                   "@type": "ListItem",
                   position: 10,
-                  url: "https://latinowebstudio.com/articles/expert-witness-directories",
+                  url: "https://www.precisewolf.com/articles/expert-witness-directories",
                   name: "Expert Witness Directories: How They Work and Why Visibility Matters",
                 },
               ],

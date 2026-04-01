@@ -17,11 +17,11 @@ export const metadata: Metadata = {
       "Web Design for Expert Witnesses - Look Like the Go-To Authority | Precise Wolf Digital",
     description:
       "Custom websites designed specifically for expert witnesses. Build trust, highlight expertise, and make attorneys want to hire you with professional, conversion-focused design.",
-    url: "https://latinowebstudio.com/practice-areas/web-design",
+    url: "https://www.precisewolf.com/practice-areas/web-design",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/practice-areas/web-design.jpg",
+        url: "https://www.precisewolf.com/practice-areas/web-design.jpg",
         width: 1200,
         height: 630,
         alt: "Web Design for Expert Witnesses - Precise Wolf Digital",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas/web-design",
+    canonical: "https://www.precisewolf.com/practice-areas/web-design",
   },
 };
 
@@ -46,8 +46,8 @@ export default function PracticeAreasWebDesign() {
             name: "Web Design for Expert Witnesses",
             description:
               "Custom web design services for expert witnesses. Build credibility, attract attorneys, and showcase your authority with professional websites designed for legal marketing.",
-            url: "https://latinowebstudio.com/practice-areas/web-design",
-            image: "https://latinowebstudio.com/practice-areas/web-design.jpg",
+            url: "https://www.precisewolf.com/practice-areas/web-design",
+            image: "https://www.precisewolf.com/practice-areas/web-design.jpg",
             keywords:
               "web design for expert witnesses, expert witness websites, attorney marketing, website for experts, professional web design, ADA compliance, attorney-focused design, SEO websites for experts, legal website design",
             inLanguage: "en",
@@ -66,7 +66,7 @@ export default function PracticeAreasWebDesign() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             hasOfferCatalog: {

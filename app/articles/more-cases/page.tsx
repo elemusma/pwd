@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Want More Cases? Here's How Lawyers Really Search for Experts Online - Precise Wolf Digital",
     description:
       "If you're an expert witness looking to grow your consulting business, the key to being found by attorneys often starts with understanding how they conduct online searches.",
-    url: `https://latinowebstudio.com/articles/more-cases`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/more-cases`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/More-Cases-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/More-Cases-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Want More Cases? Here is How Lawyers Really Search for Experts Online - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/more-cases", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/more-cases", // Replace with the actual canonical URL
   },
 };
 
@@ -50,25 +50,25 @@ export default function MoreCases() {
               "Want More Cases? Here's How Lawyers Really Search for Experts Online",
             description:
               "If you're an expert witness looking to grow your consulting business, the key to being found by attorneys often starts with understanding how they conduct online searches.",
-            image: "https://latinowebstudio.com/articles/More-Cases-01.png",
+            image: "https://www.precisewolf.com/articles/More-Cases-01.png",
             author: {
               "@type": "Person",
               name: "Your Author Name",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-05",
             dateModified: "2025-07-01",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/more-cases",
+              "@id": "https://www.precisewolf.com/articles/more-cases",
             },
             inLanguage: "en",
             keywords:
@@ -166,7 +166,7 @@ export default function MoreCases() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             Search engines like Google reward websites that offer{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               trustworthy
             </Link>
             , original, and well-organized content. Following algorithm updates
@@ -211,7 +211,7 @@ export default function MoreCases() {
             Instead, you should aim to earn links from legal directories,
             university pages, expert witness networks, and industry
             publications. Publishing useful resources like{" "}
-            <Link href="https://latinowebstudio.com/articles/deposition-readiness-checklist">
+            <Link href="https://www.precisewolf.com/articles/deposition-readiness-checklist">
               deposition checklists
             </Link>
             , FAQs, or expert analysis articles can encourage legitimate
@@ -224,7 +224,7 @@ export default function MoreCases() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             A critical takeaway from Google Scholar studies and{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               SEO best practices
             </Link>{" "}
             is that titles and metadata matter—a lot. Lawyers are unlikely to
@@ -283,7 +283,7 @@ export default function MoreCases() {
           </p>
           <p className="text-base text-gray-700 mb-4">
             A{" "}
-            <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+            <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
               well-structured website
             </Link>{" "}
             isn&apos;t just about SEO—it&apos;s a signal of professionalism.
@@ -317,7 +317,7 @@ export default function MoreCases() {
             Precise Wolf Digital specializes in helping expert witnesses translate
             their real-world authority into online credibility. We do it through
             technical SEO,{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               schema markup
             </Link>
             , optimized content, and web design that converts, we help experts

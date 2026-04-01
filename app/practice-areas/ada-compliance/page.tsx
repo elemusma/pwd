@@ -26,11 +26,11 @@ export const metadata: Metadata = {
       "ADA Compliance for Expert Witness Websites - Be Inclusive & Legally Protected | Precise Wolf Digital",
     description:
       "Make your expert witness website ADA compliant. Boost credibility, reduce legal risk, and ensure attorneys of all abilities can contact you. WCAG 2.1 standards built in.",
-    url: "https://latinowebstudio.com/practice-areas/ada-compliance",
+    url: "https://www.precisewolf.com/practice-areas/ada-compliance",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/practice-areas/ADA-Compliance-SEO-Results-SEC-Randy.jpg",
+        url: "https://www.precisewolf.com/practice-areas/ADA-Compliance-SEO-Results-SEC-Randy.jpg",
         width: 1200,
         height: 630,
         alt: "ADA Compliance for Expert Witness Websites - Precise Wolf Digital",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas/ada-compliance",
+    canonical: "https://www.precisewolf.com/practice-areas/ada-compliance",
   },
 };
 
@@ -55,9 +55,9 @@ export default function PracticeAreasADA() {
             name: "ADA Compliance for Expert Witness Websites",
             description:
               "ADA website accessibility services for expert witnesses. Improve access, credibility, and legal protection by meeting WCAG 2.1 standards.",
-            url: "https://latinowebstudio.com/practice-areas/ada-compliance",
+            url: "https://www.precisewolf.com/practice-areas/ada-compliance",
             image:
-              "https://latinowebstudio.com/practice-areas/ADA-Compliance-SEO-Results-SEC-Randy.jpg",
+              "https://www.precisewolf.com/practice-areas/ADA-Compliance-SEO-Results-SEC-Randy.jpg",
             keywords:
               "ADA compliance expert witness, WCAG website accessibility, ADA legal SEO, accessible websites, inclusive expert witness web design",
             inLanguage: "en",
@@ -76,7 +76,7 @@ export default function PracticeAreasADA() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
           }),
@@ -617,7 +617,7 @@ export default function PracticeAreasADA() {
           Costs range from $1,000-$5,000+ depending on your site&apos;s size and
           current accessibility issues. At Precise Wolf Digital we include ADA
           Compliance with our{" "}
-          <Link href="https://latinowebstudio.com/practice-areas/seo">
+          <Link href="https://www.precisewolf.com/practice-areas/seo">
             monthly SEO packages
           </Link>{" "}
           so you really get a bang for your buck.

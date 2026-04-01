@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "How to Write Articles with Keywords Lawyers Are Looking For - Precise Wolf Digital",
     description:
       "When attorneys search for expert witnesses online, they aren't just typing generic phrases—they're using highly specific, case-related queries.",
-    url: `https://latinowebstudio.com/articles/attorneys-keywords`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/attorneys-keywords`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Attorneys-Keywords-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Attorneys-Keywords-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "How to Write Articles with Keywords Lawyers Are Looking For - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/attorneys-keywords",
+    canonical: "https://www.precisewolf.com/articles/attorneys-keywords",
   },
 };
 
@@ -47,14 +47,14 @@ export default function LawyersHighIntent() {
             "@type": "BlogPosting",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/attorneys-keywords",
+              "@id": "https://www.precisewolf.com/articles/attorneys-keywords",
             },
             headline:
               "How to Write Articles with Keywords Lawyers Are Looking For",
             description:
               "When attorneys search for expert witnesses online, they aren't just typing generic phrases—they're using highly specific, case-related queries.",
             image:
-              "https://latinowebstudio.com/articles/Attorneys-Keywords-01.png",
+              "https://www.precisewolf.com/articles/Attorneys-Keywords-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
@@ -65,7 +65,7 @@ export default function LawyersHighIntent() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-01",
@@ -143,7 +143,7 @@ export default function LawyersHighIntent() {
             semantic relationship between terms. This shift means that content
             structured around broader legal topics—rather than one-off
             keywords—is more{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               likely to rank well
             </Link>
             .
@@ -197,7 +197,7 @@ export default function LawyersHighIntent() {
             especially for complex legal terms and scenarios. This setup reduces
             keyword cannibalization and boosts the visibility of your pillar
             content for broader queries. Over time, this{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               builds your authority
             </Link>{" "}
             and increases the likelihood of attracting higher-intent
@@ -229,7 +229,7 @@ export default function LawyersHighIntent() {
             &quot;How is a forensic accountant used in litigation?&quot; By
             incorporating these types of questions and answers in your articles
             and marking them up with{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               FAQ schema
             </Link>
             , your page becomes eligible for enhanced presentation in search
@@ -318,7 +318,7 @@ export default function LawyersHighIntent() {
             website and content to reflect legal research behavior, using tools
             and strategies that make your expertise discoverable and persuasive.
             This is vital for your{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               SEO as an expert witness and to get found by attorneys
             </Link>
             .
@@ -332,7 +332,7 @@ export default function LawyersHighIntent() {
           </p>
           <p className="mb-4 text-base text-gray-700">
             For{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witnesses
             </Link>
             , adopting these strategies means more visibility, more trust, and

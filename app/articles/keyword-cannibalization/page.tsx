@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Keyword Cannibalization: What It Is, Why It Hurts Rankings, and How to Fix It - Precise Wolf Digital",
     description:
       "Understand keyword cannibalization in SEO, how it affects rankings, and how expert witnesses and professionals can identify and fix it to improve site performance.",
-    url: `https://latinowebstudio.com/articles/keyword-cannibalization`,
+    url: `https://www.precisewolf.com/articles/keyword-cannibalization`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/keyword-cannibalization-01.png`,
+        url: `https://www.precisewolf.com/articles/keyword-cannibalization-01.png`,
         width: 1200,
         height: 630,
         alt: "Keyword Cannibalization Guide - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/keyword-cannibalization",
+    canonical: "https://www.precisewolf.com/articles/keyword-cannibalization",
   },
 };
 
@@ -57,11 +57,11 @@ export default function KeywordCannibalization() {
               "keyword cannibalization, SEO cannibalization fix, technical SEO, duplicate content, SEO mistakes, expert witness SEO",
             wordCount: 1072,
             image:
-              "https://latinowebstudio.com/articles/keyword-cannibalization-01.png",
+              "https://www.precisewolf.com/articles/keyword-cannibalization-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
               sameAs: "https://www.linkedin.com/in/tadeomartinez",
             },
             publisher: {
@@ -69,13 +69,13 @@ export default function KeywordCannibalization() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/keyword-cannibalization",
+                "https://www.precisewolf.com/articles/keyword-cannibalization",
             },
             isAccessibleForFree: true,
             inLanguage: "en",
@@ -150,7 +150,7 @@ export default function KeywordCannibalization() {
           <p className="text-base text-gray-700 mb-4">
             Keyword cannibalization happens when multiple pages on a website
             target the same or very similar{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               keywords
             </Link>
             . Instead of helping a site dominate the search results, this
@@ -174,7 +174,7 @@ export default function KeywordCannibalization() {
             publishing multiple articles with similar topics or optimizing
             different pages for identical terms. While it may seem like a way to
             gain more visibility, it generally backfires by diluting{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               authority
             </Link>{" "}
             and spreading ranking potential thin.
@@ -312,7 +312,7 @@ export default function KeywordCannibalization() {
           <p className="text-base text-gray-700 mb-4">
             Content briefs should define the main keyword, supporting phrases,
             and search intent. This helps ensure every article serves a distinct{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               SEO
             </Link>{" "}
             goal.
@@ -358,7 +358,7 @@ export default function KeywordCannibalization() {
           <p className="text-base text-gray-700 mb-4">
             Addressing keyword cannibalization improves clarity for search
             engines and users. It boosts authority by consolidating links,{" "}
-            <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+            <Link href="https://www.precisewolf.com/articles/google-search-rankings">
               improves rankings
             </Link>{" "}
             by resolving internal conflict, and ensures the best content ranks
@@ -378,7 +378,7 @@ export default function KeywordCannibalization() {
           <p className="text-base text-gray-700 mb-4">
             It splits ranking signals between pages, weakens authority, and
             confuses search engines, which lowers visibility and{" "}
-            <Link href="https://latinowebstudio.com/articles/web-traffic">
+            <Link href="https://www.precisewolf.com/articles/web-traffic">
               web traffic
             </Link>
             .

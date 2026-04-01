@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "What Lawyers Want to See on Your Website Before They Call You - Precise Wolf Digital",
     description:
       "For many attorneys, an expert witness's website is their first impression. This digital footprint is no longer optional—it's a core part of how legal professionals vet and contact experts.",
-    url: `https://latinowebstudio.com/articles/lawyers-experts-websites`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/lawyers-experts-websites`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/What-Lawyers-Want-to-See-on-Your-Website-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/What-Lawyers-Want-to-See-on-Your-Website-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "What Lawyers Want to See on Your Website Before They Call You - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/lawyers-experts-websites", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/lawyers-experts-websites", // Replace with the actual canonical URL
   },
 };
 
@@ -50,18 +50,18 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
             description:
               "For many attorneys, an expert witness's website is their first impression. This digital footprint is no longer optional—it's a core part of how legal professionals vet and contact experts.",
             image:
-              "https://latinowebstudio.com/articles/What‑Lawyers‑Want‑to‑See‑on‑Your‑Website‑01.png",
+              "https://www.precisewolf.com/articles/What‑Lawyers‑Want‑to‑See‑on‑Your‑Website‑01.png",
             author: {
               "@type": "Person",
               name: "Your Author Name",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-04",
@@ -69,7 +69,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/lawyers-experts-websites",
+                "https://www.precisewolf.com/articles/lawyers-experts-websites",
             },
             inLanguage: "en",
             keywords:
@@ -101,7 +101,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
           <p className="text-base text-gray-700 mb-4">
             For many attorneys, an expert witness&apos;s website is their first
             impression. Whether a lawyer finds you through a{" "}
-            <Link href="https://latinowebstudio.com/articles/citations-directories">
+            <Link href="https://www.precisewolf.com/articles/citations-directories">
               directory
             </Link>
             , referral, or a simple Google search, your site often becomes the
@@ -154,7 +154,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
           <p className="text-base text-gray-700 mb-4">
             Attorneys want to understand what you do and whether you&apos;re a
             credible fit—fast. That means each section of your{" "}
-            <Link href="https://latinowebstudio.com/articles/ai-ranking">
+            <Link href="https://www.precisewolf.com/articles/ai-ranking">
               website should be purpose-driven
             </Link>
             . List the services you offer, distinguishing between testifying and
@@ -228,7 +228,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
           <p className="text-base text-gray-700 mb-4">
             Regularly adding new articles or blog posts helps you in two
             critical ways: it{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               boosts your visibility in search engines
             </Link>{" "}
             and positions you as a thought leader. Topics might include recent
@@ -277,7 +277,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
             brochure. It should reflect the depth of your experience and make it
             easy for attorneys to trust, understand, and contact you. Investing
             in quality design and content is not just about{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               marketing
             </Link>
             —it&apos;s about aligning with the expectations of legal
@@ -294,7 +294,7 @@ export default function WhatLawyersWantOnExpertWitnessWebsite() {
           <p className="text-base text-gray-700 mb-4">
             To improve your chances of being discovered online, it&apos;s
             important to understand the{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               SEO keywords attorneys use when searching for expert witnesses
             </Link>
             . Aligning your content with these search terms can significantly

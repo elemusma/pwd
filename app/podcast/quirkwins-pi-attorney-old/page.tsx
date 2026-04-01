@@ -22,11 +22,11 @@ export const metadata: Metadata = {
       "How Expert Witnesses Can Get More Cases: Advice from a Personal Injury Attorney - Precise Wolf Digital",
     description:
       "Expert witness marketing tips from Logan Quirk, a personal injury attorney. Learn how attorneys find and evaluate expert witnesses, common mistakes, and how to stand out.",
-    url: `https://latinowebstudio.com/podcast/quirkwins/`,
+    url: `https://www.precisewolf.com/podcast/quirkwins/`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/podcast/quirkwins.jpg`,
+        url: `https://www.precisewolf.com/podcast/quirkwins.jpg`,
         width: 1200,
         height: 630,
         alt: "Logan Quirk Podcast Episode - Precise Wolf Digital",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/quirkwins",
+    canonical: "https://www.precisewolf.com/podcast/quirkwins",
   },
 };
 
@@ -50,30 +50,30 @@ export default function PodcastEpisodeQuirkWins() {
             name: "How Expert Witnesses Can Get More Cases: Advice from a Personal Injury Attorney",
             description:
               "Logan Quirk shares insider advice on how expert witnesses can market themselves, avoid career pitfalls, and earn more legal cases.",
-            url: "https://latinowebstudio.com/podcast/quirkwins/",
+            url: "https://www.precisewolf.com/podcast/quirkwins/",
             datePublished: "2025-08-09",
             dateModified: "2025-08-09",
             isPartOf: {
               "@type": "PodcastSeries",
               name: "Quirk Wins Podcast",
             },
-            image: "https://latinowebstudio.com/podcast/quirkwins.jpg",
+            image: "https://www.precisewolf.com/podcast/quirkwins.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/podcast/quirkwins/",
+              "@id": "https://www.precisewolf.com/podcast/quirkwins/",
             },
             inLanguage: "en",
             keywords:
@@ -82,7 +82,7 @@ export default function PodcastEpisodeQuirkWins() {
               "@type": "ListenAction",
               target: [
                 "https://www.youtube.com/watch?v=JYgZaXCTEZU",
-                "https://latinowebstudio.com/podcast/quirkwins/",
+                "https://www.precisewolf.com/podcast/quirkwins/",
               ],
             },
             performer: {
@@ -209,7 +209,7 @@ export default function PodcastEpisodeQuirkWins() {
                 </a>
                 , a personal injury attorney with over 16 years of experience,
                 to talk about how expert witnesses can position themselves to{" "}
-                <Link href="https://latinowebstudio.com/articles/more-cases">
+                <Link href="https://www.precisewolf.com/articles/more-cases">
                   get more cases
                 </Link>
                 . If you&apos;re an expert witness trying to stand out or just
@@ -260,7 +260,7 @@ export default function PodcastEpisodeQuirkWins() {
               </h3>
               <p className="mb-4">
                 He prefers{" "}
-                <Link href="https://latinowebstudio.com/articles/court-experience-no-cases">
+                <Link href="https://www.precisewolf.com/articles/court-experience-no-cases">
                   experts who don&apos;t testify 100% of the time
                 </Link>{" "}
                 and are still active in their field.
@@ -299,7 +299,7 @@ export default function PodcastEpisodeQuirkWins() {
               </h2>
               <p className="mb-4">
                 We got into how{" "}
-                <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+                <Link href="https://www.precisewolf.com/articles/marketing-strategies">
                   marketing can help
                 </Link>{" "}
                 or hurt an expert witness. Logan emphasized that marketing is
@@ -374,7 +374,7 @@ export default function PodcastEpisodeQuirkWins() {
               </p>
               <p className="mb-4">
                 Whether you&apos;re new to{" "}
-                <Link href="https://latinowebstudio.com/articles/what-how-expert-witness ">
+                <Link href="https://www.precisewolf.com/articles/what-how-expert-witness ">
                   expert witness work
                 </Link>{" "}
                 or looking to sharpen your practice, these insights can make a

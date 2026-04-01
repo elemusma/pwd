@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Search Intent for Expert Witnesses: Attract More Attorneys - Precise Wolf Digital",
     description:
       "Learn how expert witnesses can use search intent to create content that ranks, builds trust, and attracts attorneys searching for your expertise.",
-    url: `https://latinowebstudio.com/articles/search-intent`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/search-intent`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Search-Intent-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Search-Intent-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Search Intent for Expert Witnesses: Attract More Attorneys - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/search-intent", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/search-intent", // Replace with the actual canonical URL
   },
 };
 
@@ -50,25 +50,25 @@ export default function SearchIntent() {
               "Search Intent for Expert Witnesses: Attract More Attorneys",
             description:
               "Learn how expert witnesses can use search intent to create content that ranks, builds trust, and attracts attorneys searching for your expertise.",
-            image: "https://latinowebstudio.com/articles/Search-Intent-01.png",
+            image: "https://www.precisewolf.com/articles/Search-Intent-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-14",
             dateModified: "2025-07-01",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/search-intent",
+              "@id": "https://www.precisewolf.com/articles/search-intent",
             },
             inLanguage: "en",
             keywords:
@@ -101,7 +101,7 @@ export default function SearchIntent() {
               person&apos;s search query. It&apos;s what they <em>actually</em>{" "}
               want to find, learn, or do when they type something into Google.
               For{" "}
-              <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+              <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
                 expert witnesses
               </Link>
               , understanding search intent is key to writing content that draws
@@ -124,7 +124,7 @@ export default function SearchIntent() {
               solution, a service, or a person who can help solve a legal
               problem. Your content must directly answer the question in a way
               that{" "}
-              <Link href="https://latinowebstudio.com/articles/eeat">
+              <Link href="https://www.precisewolf.com/articles/eeat">
                 builds trust, demonstrates authority
               </Link>
               , and encourages action.
@@ -240,7 +240,7 @@ export default function SearchIntent() {
               </li>
               <li>
                 <strong>Pro tip</strong>: Use{" "}
-                <Link href="https://latinowebstudio.com/articles/schema-markup">
+                <Link href="https://www.precisewolf.com/articles/schema-markup">
                   schema markup
                 </Link>{" "}
                 to increase your visibility in search results and improve
@@ -260,7 +260,7 @@ export default function SearchIntent() {
               <li>
                 <strong>Your content</strong>: Ensure your personal or firm name
                 ranks when searched. This includes your homepage, LinkedIn, and{" "}
-                <Link href="https://latinowebstudio.com/articles/expert-witness-directories">
+                <Link href="https://www.precisewolf.com/articles/expert-witness-directories">
                   directory profiles
                 </Link>
                 .
@@ -408,7 +408,7 @@ export default function SearchIntent() {
             <p>
               Most expert witnesses rely on referrals or directories to get
               found. We take it a step further. We actively use{" "}
-              <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+              <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
                 SEO strategies
               </Link>{" "}
               and search behavior data to make sure attorneys looking for our
@@ -427,7 +427,7 @@ export default function SearchIntent() {
               </li>
               <li>
                 <strong>SEMrush &amp; Ahrefs</strong>: These tools help us{" "}
-                <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+                <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
                   analyze keyword
                 </Link>{" "}
                 volume, ranking difficulty, and user intent. We use them to
@@ -484,7 +484,7 @@ export default function SearchIntent() {
             </ul>
             <p>
               Write with empathy, strategy, and purpose—and your{" "}
-              <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+              <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
                 website
               </Link>{" "}
               won&apos;t just attract clicks. It&apos;ll attract cases.

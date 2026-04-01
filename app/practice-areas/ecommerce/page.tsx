@@ -26,11 +26,11 @@ export const metadata: Metadata = {
       "Enterprise eCommerce Development – Custom Retail & Wholesale Platforms | Precise Wolf Digital",
     description:
       "Custom-built enterprise eCommerce platforms with role-based functionality for B2B and B2C. Scalable, secure, and tailored to your business workflows.",
-    url: "https://latinowebstudio.com/practice-areas/ecommerce",
+    url: "https://www.precisewolf.com/practice-areas/ecommerce",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/practice-areas/ecommerce/ecommerce-enterprise-code-01.jpg",
+        url: "https://www.precisewolf.com/practice-areas/ecommerce/ecommerce-enterprise-code-01.jpg",
         width: 1200,
         height: 630,
         alt: "Custom eCommerce Platform for Retail & Wholesale by Precise Wolf Digital",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas/ecommerce",
+    canonical: "https://www.precisewolf.com/practice-areas/ecommerce",
   },
 };
 
@@ -62,7 +62,7 @@ export default function PracticeAreasEcommerce() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             areaServed: {
@@ -74,9 +74,9 @@ export default function PracticeAreasEcommerce() {
               audienceType:
                 "Retailers, Wholesalers, Distributors, Enterprise Teams",
             },
-            url: "https://latinowebstudio.com/practice-areas/ecommerce",
+            url: "https://www.precisewolf.com/practice-areas/ecommerce",
             image:
-              "https://latinowebstudio.com/practice-areas/ecommerce/e-commerce.jpg",
+              "https://www.precisewolf.com/practice-areas/ecommerce/e-commerce.jpg",
             keywords:
               "enterprise ecommerce, B2B ecommerce, B2C platform development, custom ecommerce website, wholesale ecommerce, ecommerce development agency",
             inLanguage: "en",

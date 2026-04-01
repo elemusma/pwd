@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "Content Strategy for Expert Witnesses: Enhancing Visibility and Credibility Online - Precise Wolf Digital",
     description:
       "Content strategy for expert witnesses refers to the structured approach of planning, creating, and managing digital content with the goal of improving online visibility and establishing professional credibility.",
-    url: "https://latinowebstudio.com/articles/content-strategy",
+    url: "https://www.precisewolf.com/articles/content-strategy",
     type: "article",
     images: [
       {
-        url: "https://latinowebstudio.com/articles/content-strategy.jpg",
+        url: "https://www.precisewolf.com/articles/content-strategy.jpg",
         width: 1200,
         height: 630,
         alt: "Content Strategy for Expert Witnesses Guide - Precise Wolf Digital",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/content-strategy",
+    canonical: "https://www.precisewolf.com/articles/content-strategy",
   },
   keywords: [
     "expert witness marketing",
@@ -56,25 +56,25 @@ export default function ContentStrategy() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/content-strategy-expert-witnesses",
+                "https://www.precisewolf.com/articles/content-strategy-expert-witnesses",
             },
             headline:
               "Content Strategy for Expert Witnesses: Enhancing Visibility and Credibility Online",
             description:
               "Learn how expert witnesses can develop an effective content strategy to increase online visibility and professional credibility, focusing on technical SEO, UX, and legal marketing content strategies.",
             image:
-              "https://latinowebstudio.com/articles/content-strategy-expert-witnesses.jpg",
+              "https://www.precisewolf.com/articles/content-strategy-expert-witnesses.jpg",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-07-18",
@@ -200,7 +200,7 @@ export default function ContentStrategy() {
             Planning involves auditing your existing digital footprint,
             identifying content gaps, and defining your professional goals.
             Collaborating with web specialists, such as{" "}
-            <Link href="https://latinowebstudio.com/">Precise Wolf Digital</Link>,
+            <Link href="https://www.precisewolf.com/">Precise Wolf Digital</Link>,
             can help you assess SEO opportunities and map out topics relevant to
             attorneys in your field of expertise.
           </p>
@@ -227,7 +227,7 @@ export default function ContentStrategy() {
             digital profile remains relevant and accurate. Maintenance includes
             revisiting blog posts, updating certifications, and ensuring
             technical SEO elements like{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               schema markup
             </Link>{" "}
             remain correct.
@@ -250,7 +250,7 @@ export default function ContentStrategy() {
             Define goals such as attracting personal injury cases, patent
             litigation work, or other specialty case types. Establish measurable
             outcomes like increasing qualified website leads or{" "}
-            <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+            <Link href="https://www.precisewolf.com/articles/google-search-rankings">
               improving your search rankings
             </Link>{" "}
             for specific terms.
@@ -272,7 +272,7 @@ export default function ContentStrategy() {
           <p className="mb-4">
             Assess your existing website and LinkedIn profile for gaps in
             case-related insights, expert topics, and{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               technical SEO performance
             </Link>
             . Precise Wolf Digital often assists expert witnesses in this
@@ -297,7 +297,7 @@ export default function ContentStrategy() {
             Create an editorial calendar to schedule regular content updates.
             Focus on relevant legal events, seasonal trends, and recent case
             studies that may{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               resonate with attorneys researching expert testimony
             </Link>{" "}
             options.
@@ -326,7 +326,7 @@ export default function ContentStrategy() {
           <h3 className="text-xl font-semibold mt-6 mb-2">Measuring success</h3>
           <p className="mb-4">
             Track metrics such as{" "}
-            <Link href="https://latinowebstudio.com/articles/web-traffic">
+            <Link href="https://www.precisewolf.com/articles/web-traffic">
               website traffic
             </Link>{" "}
             from law firms, contact form submissions, keyword rankings, and
@@ -381,7 +381,7 @@ export default function ContentStrategy() {
             schema markup, and structured data all support discoverability.
             Partnering with digital agencies like Precise Wolf Digital ensures that
             technical SEO and{" "}
-            <Link href="https://latinowebstudio.com/articles/user-experience-ux">
+            <Link href="https://www.precisewolf.com/articles/user-experience-ux">
               UX best practices
             </Link>{" "}
             are applied consistently across your content strategy.
@@ -399,7 +399,7 @@ export default function ContentStrategy() {
             overlooking its role in professional credibility and visibility.
             Content strategy is a planned, deliberate process aimed at
             supporting{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witness
             </Link>{" "}
             credibility through factual, educational content.
@@ -454,7 +454,7 @@ export default function ContentStrategy() {
             Content strategy guides the creation of professional insights and
             service descriptions that showcase your authority in your field,
             increasing your visibility in{" "}
-            <Link href="https://latinowebstudio.com/articles/expert-witness-directories">
+            <Link href="https://www.precisewolf.com/articles/expert-witness-directories">
               legal directories
             </Link>{" "}
             and search engines.

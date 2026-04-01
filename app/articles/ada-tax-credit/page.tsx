@@ -16,11 +16,11 @@ export const metadata: Metadata = {
       "ADA Tax Credit Visibility: SEO and Accessibility Blueprint for Legal and Consulting Firms - Precise Wolf Digital",
     description:
       "For legal and consulting firms, aligning website accessibility with search engine optimization (SEO) is more than a compliance requirement — it’s a strategic advantage.",
-    url: `https://latinowebstudio.com/articles/ada-tax-credit`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/ada-tax-credit`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/ada-tax-credit/ADA-Tax-Credit-Visibility-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/ada-tax-credit/ADA-Tax-Credit-Visibility-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "ADA Tax Credit Visibility: SEO and Accessibility Blueprint for Legal and Consulting Firms - Precise Wolf Digital",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/ada-tax-credit",
+    canonical: "https://www.precisewolf.com/articles/ada-tax-credit",
   },
 };
 

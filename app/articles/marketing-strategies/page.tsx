@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Marketing Strategies for Expert Witnesses in 2025 - Precise Wolf Digital",
     description:
       "The digital landscape for expert witnesses is increasingly competitive, especially in legal search environments where only a few listings dominate first-page visibility.",
-    url: `https://latinowebstudio.com/articles/marketing-strategies`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/marketing-strategies`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/marketing-strategies-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/marketing-strategies-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Marketing Strategies for Expert Witnesses in 2025 - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/marketing-strategies", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/marketing-strategies", // Replace with the actual canonical URL
   },
 };
 
@@ -50,18 +50,18 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             description:
               "The digital landscape for expert witnesses is increasingly competitive, especially in legal search environments where only a few listings dominate first-page visibility.",
             image:
-              "https://latinowebstudio.com/articles/marketing-strategies-01.png",
+              "https://www.precisewolf.com/articles/marketing-strategies-01.png",
             author: {
               "@type": "Person",
               name: "Your Author Name",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-05-31",
@@ -69,7 +69,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/marketing-strategies",
+                "https://www.precisewolf.com/articles/marketing-strategies",
             },
             inLanguage: "en",
             keywords:
@@ -101,7 +101,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             The digital landscape for expert witnesses is increasingly
             competitive, especially in legal search environments where only a
             few listings dominate first-page visibility. In 2025,{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               expert witnesses must prioritize SEO strategies
             </Link>
             that align with attorney search behavior, emphasize authority within
@@ -145,7 +145,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             search engines to crawl and understand your website efficiently.
             Each core service page should have a focused H1 heading, optimized
             meta tags, and a structured layout that includes rich snippets,{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               schema markup
             </Link>
             , and internal linking to related case studies or publications.
@@ -158,7 +158,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
           </h3>
           <p className="mb-4 text-base text-gray-600">
             Backlink acquisition should focus on high-authority legal sources.{" "}
-            <Link href="https://latinowebstudio.com/articles/citations-directories">
+            <Link href="https://www.precisewolf.com/articles/citations-directories">
               Expert witness directories
             </Link>
             , bar association journals, and legal trade publications provide
@@ -191,7 +191,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             Focusing on a narrow specialization, such as “neurological injury
             assessment” or “environmental regulatory compliance,” reduces
             competition and makes it easier to{" "}
-            <Link href="https://latinowebstudio.com/articles/ai-ranking">
+            <Link href="https://www.precisewolf.com/articles/ai-ranking">
               rank for highly targeted legal queries
             </Link>
             . This approach also clarifies your value proposition to attorneys
@@ -219,7 +219,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
           </h3>
           <p className="mb-4 text-base text-gray-600">
             Rather than guess what content or layout performs best,{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witnesses
             </Link>{" "}
             should adopt a diagnostic model to conversion. Use analytics tools
@@ -237,7 +237,7 @@ export default function MarketingStrategiesExpertWitnesses2025() {
             like “Request CV and case list” or “Schedule expert consultation.”
             Avoid generic buttons. Highlight your court experience,
             admissibility track record, and expert credentials prominently to{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               build immediate trust
             </Link>
             . Design elements should support clarity, not distract from your

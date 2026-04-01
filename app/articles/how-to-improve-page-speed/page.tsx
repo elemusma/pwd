@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "How to Improve Page Speed for Better SEO and User Experience - Precise Wolf Digital",
     description:
       "Discover how expert witnesses and professionals can improve website performance for SEO and usability. Learn tools, techniques, and best practices to increase page speed.",
-    url: `https://latinowebstudio.com/articles/how-to-improve-page-speed`,
+    url: `https://www.precisewolf.com/articles/how-to-improve-page-speed`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/page-speed-01.png`,
+        url: `https://www.precisewolf.com/articles/page-speed-01.png`,
         width: 1200,
         height: 630,
         alt: "How to Improve Page Speed - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/how-to-improve-page-speed",
+    canonical: "https://www.precisewolf.com/articles/how-to-improve-page-speed",
   },
 };
 
@@ -56,24 +56,24 @@ export default function HowtoImprovePageSpeed() {
             keywords:
               "page speed optimization, technical SEO, Core Web Vitals, mobile performance, expert witness SEO, fast websites, Lighthouse, PageSpeed Insights",
             wordCount: 2000,
-            image: "https://latinowebstudio.com/articles/page-speed-01.png",
+            image: "https://www.precisewolf.com/articles/page-speed-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/how-to-improve-page-speed",
+                "https://www.precisewolf.com/articles/how-to-improve-page-speed",
             },
             inLanguage: "en",
             audience: {
@@ -164,7 +164,7 @@ export default function HowtoImprovePageSpeed() {
             content. When pages load quickly, users stay longer, interact more,
             and are more likely to convert. For expert witnesses and
             professionals who rely on{" "}
-            <Link href="https://latinowebstudio.com/articles/web-traffic">
+            <Link href="https://www.precisewolf.com/articles/web-traffic">
               web traffic
             </Link>{" "}
             from attorneys, a slow website can be a deal-breaker. In
@@ -210,7 +210,7 @@ export default function HowtoImprovePageSpeed() {
             speed, responsiveness, and stability of a page. Metrics like Largest
             Contentful Paint (LCP), Interaction to Next Paint (INP), and
             Cumulative Layout Shift (CLS) are used as direct signals in{" "}
-            <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+            <Link href="https://www.precisewolf.com/articles/google-search-rankings">
               ranking algorithms
             </Link>
             . A fast site aligned with these benchmarks is more likely to appear
@@ -238,7 +238,7 @@ export default function HowtoImprovePageSpeed() {
             This tool analyzes your website performance and provides scores for
             both mobile and desktop versions. It offers recommendations based on
             lab and field data.{" "}
-            <Link href="https://latinowebstudio.com/articles/mobile-responsiveness">
+            <Link href="https://www.precisewolf.com/articles/mobile-responsiveness">
               Mobile responsiveness
             </Link>{" "}
             should be prioritized since most traffic comes from smartphones.
@@ -265,7 +265,7 @@ export default function HowtoImprovePageSpeed() {
             GTmetrix provides a visual timeline and waterfall of loading
             behavior. Lighthouse, integrated into Chrome DevTools, simulates
             page loads in a controlled environment and audits for{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               SEO
             </Link>
             , performance, and accessibility.
@@ -459,7 +459,7 @@ export default function HowtoImprovePageSpeed() {
           <p className="mb-4 text-base text-gray-700">
             It affects your rankings, bounce rate, and user satisfaction. Google
             prioritizes faster-loading pages because they deliver better{" "}
-            <Link href="https://latinowebstudio.com/articles/user-experience-ux">
+            <Link href="https://www.precisewolf.com/articles/user-experience-ux">
               user experiences
             </Link>
             .

@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "How Expert Witnesses Can Use Schema Markup to Get Found by Attorneys Online - Precise Wolf Digital",
     description:
       "Schema markup, a type of structured data vocabulary, plays a crucial role in how websites communicate with search engines.",
-    url: `https://latinowebstudio.com/articles/schema-markup`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/schema-markup`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Expert-Witnesses-Schema-Markup-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Expert-Witnesses-Schema-Markup-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "How Expert Witnesses Can Use Schema Markup to Get Found by Attorneys Online - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/schema-markup", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/schema-markup", // Replace with the actual canonical URL
   },
 };
 
@@ -51,25 +51,25 @@ export default function SchemaMarkup() {
             description:
               "Schema markup, a type of structured data vocabulary, plays a crucial role in how websites communicate with search engines.",
             image:
-              "https://latinowebstudio.com/articles/Expert-Witnesses-Schema-Markup-01.png",
+              "https://www.precisewolf.com/articles/Expert-Witnesses-Schema-Markup-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-28",
             dateModified: "2025-07-01",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/schema-markup",
+              "@id": "https://www.precisewolf.com/articles/schema-markup",
             },
             inLanguage: "en",
             keywords:
@@ -102,7 +102,7 @@ export default function SchemaMarkup() {
             Schema markup, a type of structured data vocabulary, plays a crucial
             role in how websites communicate with search engines. For expert
             witnesses, implementing schema markup can significantly{" "}
-            <Link href="https://latinowebstudio.com/">
+            <Link href="https://www.precisewolf.com/">
               enhance discoverability by legal professionals searching for
               expert witnesses
             </Link>
@@ -134,7 +134,7 @@ export default function SchemaMarkup() {
           </h2>
           <p className="mb-4 text-gray-700">
             Schema markup enhances search engine comprehension of{" "}
-            <Link href="https://latinowebstudio.com/articles/deceptive-content">
+            <Link href="https://www.precisewolf.com/articles/deceptive-content">
               web content
             </Link>
             , increasing the likelihood of appearing in higher-ranking positions
@@ -365,7 +365,7 @@ export default function SchemaMarkup() {
             trustworthy, and more aligned with what attorneys are searching for.
             Expert witnesses who integrate schema markup into their websites are
             not only improving{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               SEO—they are shaping expert witnesses&apos; presence for the
               digital legal landscape.
             </Link>

@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Keyword Stuffing in Content and URLs: Does It Still Work in 2025? - Precise Wolf Digital",
     description:
       "Keyword stuffing refers to the practice of overloading a webpage or URL with keywords in an attempt to manipulate search engine rankings.",
-    url: `https://latinowebstudio.com/articles/keyword-stuffing`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/keyword-stuffing`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Keyword-Stuffing-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Keyword-Stuffing-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Keyword Stuffing in Content and URLs: Does It Still Work in 2025? - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/keyword-stuffing", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/keyword-stuffing", // Replace with the actual canonical URL
   },
 };
 
@@ -53,26 +53,26 @@ export default function KeywordStuffing() {
             description:
               "Keyword stuffing refers to the practice of overloading a webpage or URL with keywords in an attempt to manipulate search engine rankings. This article explores its effectiveness in 2025 and what SEO strategies expert witnesses should adopt instead.",
             image:
-              "https://latinowebstudio.com/articles/Keyword-Stuffing-01.png",
+              "https://www.precisewolf.com/articles/Keyword-Stuffing-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
-            url: "https://latinowebstudio.com/articles/keyword-stuffing",
+            url: "https://www.precisewolf.com/articles/keyword-stuffing",
             datePublished: "2025-07-01",
             dateModified: "2025-06-06",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/keyword-stuffing",
+              "@id": "https://www.precisewolf.com/articles/keyword-stuffing",
             },
             keywords:
               "keyword stuffing, SEO 2025, URL optimization, content SEO, legal SEO, expert witness SEO",
@@ -122,7 +122,7 @@ export default function KeywordStuffing() {
           />
           <p className="mb-4 text-gray-700">
             For expert witnesses aiming to be found by lawyers, the pressure to{" "}
-            <Link href="https://latinowebstudio.com/articles/ai-ranking">
+            <Link href="https://www.precisewolf.com/articles/ai-ranking">
               rank highly
             </Link>{" "}
             can lead to outdated strategies like keyword stuffing. Latino Web
@@ -160,7 +160,7 @@ export default function KeywordStuffing() {
             of URLs also matters. According to a guide on URL structuring,
             excessive keyword use in URLs leads to cluttered, spam-like
             appearances that erode{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">trust</Link>{" "}
+            <Link href="https://www.precisewolf.com/articles/eeat">trust</Link>{" "}
             and reduce click-through rates.
           </p>
           <p className="mb-4 text-gray-700">
@@ -205,7 +205,7 @@ export default function KeywordStuffing() {
             For expert witnesses, building authority through SEO starts with
             clarity. Use keywords for in page titles, headings, and body
             text—but do so in a way that aligns with how{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               attorneys search
             </Link>{" "}
             for specialized expertise.
@@ -265,7 +265,7 @@ export default function KeywordStuffing() {
             Precise Wolf Digital specializes in building SEO-optimized websites for
             expert witnesses. We help you get found by the right attorneys
             through strategic design,{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               technical SEO
             </Link>
             , and conversion-focused content. If you&apos;re ready to get more

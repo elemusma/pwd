@@ -43,7 +43,7 @@ export default function Page() {
         />
         <link
           rel="canonical"
-          href="https://latinowebstudio.com/ebitda-calculator"
+          href="https://www.precisewolf.com/ebitda-calculator"
         />
         <meta
           property="og:title"
@@ -55,11 +55,11 @@ export default function Page() {
         />
         <meta
           property="og:url"
-          content="https://latinowebstudio.com/ebitda-calculator"
+          content="https://www.precisewolf.com/ebitda-calculator"
         />
         <meta
           property="og:image"
-          content="https://latinowebstudio.com/photos/ebitda-calculator.jpg"
+          content="https://www.precisewolf.com/photos/ebitda-calculator.jpg"
         />
       </Head>
       <script
@@ -71,7 +71,7 @@ export default function Page() {
             name: "EBITDA Calculator - What Is Your Business Worth?",
             description:
               "An easy-to-use EBITDA calculator to estimate business value. Built by Tadeo Martinez.",
-            url: "https://latinowebstudio.com/ebitda-calculator",
+            url: "https://www.precisewolf.com/ebitda-calculator",
             mainEntity: {
               "@type": "SoftwareApplication",
               name: "EBITDA Calculator",
@@ -80,7 +80,7 @@ export default function Page() {
               creator: {
                 "@type": "Person",
                 name: "Tadeo Martinez",
-                url: "https://latinowebstudio.com/about",
+                url: "https://www.precisewolf.com/about",
               },
               offers: {
                 "@type": "Offer",
@@ -97,7 +97,7 @@ export default function Page() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
           }),

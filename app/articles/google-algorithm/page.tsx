@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Google Algorithm: Understanding, Adapting, and Building Visibility - Precise Wolf Digital",
     description:
       "How Google ranks pages, what core updates change, and practical SEO steps expert witnesses can use to improve visibility with attorneys.",
-    url: `https://latinowebstudio.com/articles/google-algorithm`,
+    url: `https://www.precisewolf.com/articles/google-algorithm`,
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Google-Algorithm.jpg`,
+        url: `https://www.precisewolf.com/articles/Google-Algorithm.jpg`,
         width: 1200,
         height: 630,
         alt: "Google Algorithm: Understanding, Adapting, and Building Visibility - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/google-algorithm",
+    canonical: "https://www.precisewolf.com/articles/google-algorithm",
   },
 };
 
@@ -48,26 +48,26 @@ export default function GoogleAlgorithm() {
               "@type": "BlogPosting",
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": "https://latinowebstudio.com/articles/google-algorithm",
+                "@id": "https://www.precisewolf.com/articles/google-algorithm",
               },
               headline:
                 "Google Algorithm: Understanding, Adapting, and Building Visibility",
               description:
                 "How Google ranks pages, what core updates change, and strategic steps expert witnesses can apply to earn visibility and credibility with attorneys.",
               image: [
-                "https://latinowebstudio.com/articles/Google-Algorithm.jpg",
+                "https://www.precisewolf.com/articles/Google-Algorithm.jpg",
               ],
               author: {
                 "@type": "Organization",
                 name: "Precise Wolf Digital",
-                url: "https://latinowebstudio.com/about",
+                url: "https://www.precisewolf.com/about",
               },
               publisher: {
                 "@type": "Organization",
                 name: "Precise Wolf Digital",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                  url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
                   width: 512,
                   height: 512,
                 },
@@ -139,13 +139,13 @@ export default function GoogleAlgorithm() {
                   "@type": "ListItem",
                   position: 1,
                   name: "Articles",
-                  item: "https://latinowebstudio.com/articles",
+                  item: "https://www.precisewolf.com/articles",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Google Algorithm: Understanding, Adapting, and Building Visibility",
-                  item: "https://latinowebstudio.com/articles/google-algorithm",
+                  item: "https://www.precisewolf.com/articles/google-algorithm",
                 },
               ],
             },
@@ -181,17 +181,17 @@ export default function GoogleAlgorithm() {
           />
           <p className="mb-4">
             For{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witnesses
             </Link>
             , attorneys, and professionals aiming to be found by law firms,
             understanding how these algorithms operate can help shape a
             strategic online presence. When applied with strong{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/web-design">
+            <Link href="https://www.precisewolf.com/practice-areas/web-design">
               web design
             </Link>{" "}
             and{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               SEO for expert witnesses
             </Link>
             , knowledge of the algorithm translates into higher visibility and
@@ -207,7 +207,7 @@ export default function GoogleAlgorithm() {
             authority. Updates like Florida (2003) and Big Daddy (2005) refined
             spam detection and link evaluation. Jagger (2006) and Vince (2009)
             targeted link schemes and{" "}
-            <Link href="https://latinowebstudio.com/articles/deceptive-content">
+            <Link href="https://www.precisewolf.com/articles/deceptive-content">
               low-value content
             </Link>
             , while Caffeine (2010) dramatically sped up crawling and indexing.
@@ -224,7 +224,7 @@ export default function GoogleAlgorithm() {
             PageRank evaluates the number and quality of inbound links to
             determine a page&apos;s perceived importance. A well-structured
             backlink profile from reputable legal and professional sources{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               boosts credibility
             </Link>{" "}
             in the eyes of Google and potential lawyer clients.
@@ -232,7 +232,7 @@ export default function GoogleAlgorithm() {
           <h3 className="text-xl font-semibold mt-6 mb-3">Ranking Algorithm</h3>
           <p className="mb-4">
             Beyond links, the ranking algorithm considers content quality,{" "}
-            <Link href="https://latinowebstudio.com/articles/how-to-improve-page-speed">
+            <Link href="https://www.precisewolf.com/articles/how-to-improve-page-speed">
               site speed
             </Link>
             , mobile usability, HTTPS security, and Core Web Vitals. For expert
@@ -303,12 +303,12 @@ export default function GoogleAlgorithm() {
             Adapting to Google&apos;s algorithm means maintaining high-quality,
             relevant content; building authoritative links; optimizing mobile
             usability and page speed; and demonstrating{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               E-E-A-T
             </Link>
             . Tadeo (Ted) with Precise Wolf Digital helps expert witnesses align
             these factors to appeal to both{" "}
-            <Link href="https://latinowebstudio.com/articles/search-engines">
+            <Link href="https://www.precisewolf.com/articles/search-engines">
               search engines
             </Link>{" "}
             and legal professionals seeking expertise.
@@ -372,7 +372,7 @@ export default function GoogleAlgorithm() {
           <p className="mb-4">
             Myths persist, such as &quot;PageRank is dead&quot;—it remains part
             of Google&apos;s system. Another misconception is that{" "}
-            <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+            <Link href="https://www.precisewolf.com/articles/google-search-rankings">
               algorithms penalize
             </Link>{" "}
             sites; most simply adjust rankings to better match quality and
@@ -397,7 +397,7 @@ export default function GoogleAlgorithm() {
             Recovery involves diagnosing issues, improving content quality,
             cleaning backlinks, and monitoring progress. Professionals benefit
             from structured audits and{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               attorney-focused keyword
             </Link>{" "}
             research to regain search visibility.

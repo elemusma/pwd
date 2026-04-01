@@ -18,11 +18,11 @@ export const metadata: Metadata = {
       "Why Your Court Experience Isn't Helping You Get More Cases (Yet) - Precise Wolf Digital",
     description:
       "Despite having testified in numerous trials or depositions, many expert witnesses are finding that their courtroom experience isn't resulting in the volume of inquiries they expect.",
-    url: `https://latinowebstudio.com/articles/court-experience-no-cases`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/court-experience-no-cases`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Court-Experience-More-Cases-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Court-Experience-More-Cases-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Why Your Court Experience Isn't Helping You Get More Cases (Yet) - Precise Wolf Digital",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/court-experience-no-cases",
+    canonical: "https://www.precisewolf.com/articles/court-experience-no-cases",
   },
 };
 
@@ -47,25 +47,25 @@ export default function WhyCourtExperienceNotGettingCases() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/court-experience-no-cases",
+                "https://www.precisewolf.com/articles/court-experience-no-cases",
             },
             headline:
               "Why Your Court Experience Isn't Helping You Get More Cases (Yet)",
             description:
               "Despite having testified in numerous trials or depositions, many expert witnesses are finding that their courtroom experience isn't resulting in the volume of inquiries they expect.",
             image:
-              "https://latinowebstudio.com/articles/Court-Experience-More-Cases-01.png",
+              "https://www.precisewolf.com/articles/Court-Experience-More-Cases-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-03",
@@ -102,7 +102,7 @@ export default function WhyCourtExperienceNotGettingCases() {
             expert witnesses are finding that their courtroom experience
             isn&apos;t resulting in the volume of inquiries they expect. While
             reputation and results matter, they often aren&apos;t enough to{" "}
-            <Link href="https://latinowebstudio.com/">
+            <Link href="https://www.precisewolf.com/">
               create online visibility or generate leads from attorneys
             </Link>{" "}
             searching for specific expertise. In today&apos;s legal marketplace,
@@ -132,7 +132,7 @@ export default function WhyCourtExperienceNotGettingCases() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             One of the unique challenges in{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               expert witness marketing
             </Link>{" "}
             is the potential for cross-examination on promotional activities.
@@ -173,14 +173,14 @@ export default function WhyCourtExperienceNotGettingCases() {
           <p className="text-base text-gray-700 mb-4">
             A meta-analysis of ten studies conducted between 2022 and 2024
             revealed that{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               search engine optimization (SEO)
             </Link>{" "}
             had a consistently strong positive effect on website traffic and
             organic search rankings. The mean effect size was measured at
             1.049—categorized as very strong. Key contributing variables
             included content quality,{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               keyword usage
             </Link>
             , and backlink profiles.
@@ -197,7 +197,7 @@ export default function WhyCourtExperienceNotGettingCases() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             Many{" "}
-            <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+            <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
               expert witness websites
             </Link>{" "}
             fail to address how attorneys search or what they look for. They may
@@ -270,7 +270,7 @@ export default function WhyCourtExperienceNotGettingCases() {
             messaging, legal-search SEO, and a structure that supports both
             visibility and conversion. By bridging the gap between expertise and
             access,{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witnesses
             </Link>{" "}
             can significantly improve their ability to attract and retain new

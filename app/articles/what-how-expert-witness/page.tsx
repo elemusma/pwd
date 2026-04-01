@@ -18,11 +18,11 @@ export const metadata: Metadata = {
       "What is an Expert Witness and How to Become One - Precise Wolf Digital",
     description:
       "Expert witnesses are essential contributors to the judicial process and have specialized knowledge in fields such as medicine, engineering, finance, or psychology.",
-    url: `https://latinowebstudio.com/articles/what-how-expert-witnesses`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/what-how-expert-witnesses`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/what-how-expert-witnesses-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/what-how-expert-witnesses-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "What is an Expert Witness and How to Become One - Precise Wolf Digital",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/what-how-expert-witnesses", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/what-how-expert-witnesses", // Replace with the actual canonical URL
   },
 };
 
@@ -48,18 +48,18 @@ export default function WhatHowExpertWitnesses() {
             description:
               "Expert witnesses are essential contributors to the judicial process and have specialized knowledge in fields such as medicine, engineering, finance, or psychology.",
             image:
-              "https://latinowebstudio.com/articles/what-how-expert-witnesses-01.png",
+              "https://www.precisewolf.com/articles/what-how-expert-witnesses-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-29",
@@ -67,7 +67,7 @@ export default function WhatHowExpertWitnesses() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/what-how-expert-witnesses",
+                "https://www.precisewolf.com/articles/what-how-expert-witnesses",
             },
             inLanguage: "en",
             keywords:
@@ -139,7 +139,7 @@ export default function WhatHowExpertWitnesses() {
             Professionals can further position themselves by authoring
             publications, presenting at industry conferences, and contributing
             to domain-specific forums. The authorship of{" "}
-            <Link href="https://latinowebstudio.com/articles/peer-reviewed-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/peer-reviewed-expert-witness">
               peer-reviewed
             </Link>{" "}
             articles or technical manuals can increase visibility and establish
@@ -173,7 +173,7 @@ export default function WhatHowExpertWitnesses() {
             Verification of credentials is a non-negotiable aspect of becoming
             an expert witness. Attorneys—and increasingly, judges—expect full
             transparency.{" "}
-            <Link href="https://latinowebstudio.com/articles/deceptive-content">
+            <Link href="https://www.precisewolf.com/articles/deceptive-content">
               Misrepresenting educational background, licensure, or prior
               engagements can disqualify an expert witness
             </Link>{" "}
@@ -183,7 +183,7 @@ export default function WhatHowExpertWitnesses() {
             Credential validation includes confirming degrees through registrar
             offices, checking licensure status across jurisdictions, and
             ensuring{" "}
-            <Link href="https://latinowebstudio.com/articles/citations-directories">
+            <Link href="https://www.precisewolf.com/articles/citations-directories">
               consistency across resumes, directories
             </Link>
             , and court filings. Online tools and licensing databases can assist
@@ -215,7 +215,7 @@ export default function WhatHowExpertWitnesses() {
           <p className="text-base text-gray-700 mb-4">
             Case studies serve dual purposes: they demonstrate professional
             experience and act as{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               powerful SEO assets
             </Link>
             . Each case study should focus on a specific domain—for instance,
@@ -262,7 +262,7 @@ export default function WhatHowExpertWitnesses() {
             Strategic Pathways for Emerging Expert Witnesses
           </h2>
           <p className="text-base text-gray-700 mb-4">
-            <Link href="https://latinowebstudio.com/">
+            <Link href="https://www.precisewolf.com/">
               Becoming a successful expert witness
             </Link>{" "}
             is a multi-dimensional process involving subject-matter expertise,
@@ -273,7 +273,7 @@ export default function WhatHowExpertWitnesses() {
           </p>
           <p className="text-base text-gray-700 mb-4">
             The implementation of{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               E-E-A-T principles ensures credibility
             </Link>{" "}
             in the eyes of both Google and potential clients. Case studies and

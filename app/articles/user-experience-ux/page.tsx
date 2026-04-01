@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "Why Your Website Might Be Costing You Cases—and How UX Can Fix That - Precise Wolf Digital",
     description:
       "Attorneys reviewing expert witnesses often move fast. They scan, evaluate, and make judgments within seconds.",
-    url: `https://latinowebstudio.com/articles/user-experience-ux`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/user-experience-ux`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/user-experience-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/user-experience-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Why Your Website Might Be Costing You Cases—and How UX Can Fix That - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/user-experience-ux", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/user-experience-ux", // Replace with the actual canonical URL
   },
 };
 
@@ -55,24 +55,24 @@ export default function UserExperience() {
               "UX for expert witnesses, legal web design, attorney website evaluation",
             wordCount: 1240,
             image:
-              "https://latinowebstudio.com/articles/user-experience-01.png",
+              "https://www.precisewolf.com/articles/user-experience-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-18",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/user-experience-ux",
+              "@id": "https://www.precisewolf.com/articles/user-experience-ux",
             },
             inLanguage: "en",
             audience: {
@@ -167,7 +167,7 @@ export default function UserExperience() {
             </p>
             <p className="text-base text-gray-700 mb-4">
               For{" "}
-              <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+              <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
                 attorneys scanning quickly
               </Link>
               , this layout creates friction. There&apos;s no immediate signal
@@ -218,13 +218,13 @@ export default function UserExperience() {
             </p>
             <p className="text-base text-gray-700 mb-4">
               Accessibility is more than a compliance checkbox—it&apos;s part of{" "}
-              <Link href="https://latinowebstudio.com/articles/eeat">
+              <Link href="https://www.precisewolf.com/articles/eeat">
                 trust
               </Link>
               . Make sure text is readable, forms are labeled properly, and
               navigation can be completed without confusion. Technical SEO also
               matters. Use{" "}
-              <Link href="https://latinowebstudio.com/articles/schema-markup">
+              <Link href="https://www.precisewolf.com/articles/schema-markup">
                 schema markup
               </Link>{" "}
               for your professional credentials, optimize meta titles with
@@ -237,7 +237,7 @@ export default function UserExperience() {
               deliver exactly these upgrades. From UX audits to complete
               rebuilds, we apply user-centered design with legal-industry
               relevance—no guesswork, no generic templates. Our{" "}
-              <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+              <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
                 SEO strategies
               </Link>{" "}
               are tuned to how attorneys search, what they expect, and how your
@@ -260,7 +260,7 @@ export default function UserExperience() {
               presence through legally aligned UX design, fast-loading pages,
               clear legal-service structures, and smart SEO strategies. We
               understand how expert witnesses are vetted online, and we{" "}
-              <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+              <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
                 build websites
               </Link>{" "}
               that support that exact process.

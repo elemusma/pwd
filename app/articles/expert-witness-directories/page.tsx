@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Expert Witness Directories: How They Work and Why Visibility Matters - Precise Wolf Digital",
     description:
       "Legal professionals rely heavily on expert witness directories to identify, vet, and retain individuals with specialized knowledge relevant to their cases.",
-    url: `https://latinowebstudio.com/articles/expert-witness-directories`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/expert-witness-directories`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Expert-Witness-Directories-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Expert-Witness-Directories-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Expert Witness Directories: How They Work and Why Visibility Matters - Precise Wolf Digital",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   // ✅ Add this block:
   alternates: {
     canonical:
-      "https://latinowebstudio.com/articles/expert-witness-directories", // Replace with the actual canonical URL
+      "https://www.precisewolf.com/articles/expert-witness-directories", // Replace with the actual canonical URL
   },
 };
 
@@ -50,25 +50,25 @@ export default function ExpertWitnessDirectories() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/expert-witness-directories",
+                "https://www.precisewolf.com/articles/expert-witness-directories",
             },
             headline:
               "Expert Witness Directories: How They Work and Why Visibility Matters",
             description:
               "Legal professionals rely heavily on expert witness directories to identify, vet, and retain individuals with specialized knowledge relevant to their cases.",
             image:
-              "https://latinowebstudio.com/articles/Expert-Witness-Directories-01.png",
+              "https://www.precisewolf.com/articles/Expert-Witness-Directories-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-04",
@@ -170,7 +170,7 @@ export default function ExpertWitnessDirectories() {
           <p className="text-base text-gray-600 mb-4">
             Beyond facilitating discovery, expert witness directories function
             as a{" "}
-            <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+            <Link href="https://www.precisewolf.com/articles/marketing-strategies">
               marketing channel
             </Link>
             . For many professionals, these directories serve as their first
@@ -194,7 +194,7 @@ export default function ExpertWitnessDirectories() {
           <p className="text-base text-gray-600 mb-4">
             While being listed in directories provides foundational visibility,
             integrating{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               search engine optimization strategies
             </Link>{" "}
             significantly amplifies that reach. Attorneys frequently use general
@@ -224,7 +224,7 @@ export default function ExpertWitnessDirectories() {
           <p className="text-base text-gray-600 mb-4">
             Expert witnesses face unique ethical constraints in how they market
             themselves. Any promotional content—whether on your{" "}
-            <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+            <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
               expert witness website
             </Link>{" "}
             or in a directory—may be scrutinized during cross-examination. Thus,

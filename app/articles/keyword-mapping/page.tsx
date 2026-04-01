@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Keyword Mapping: How to Structure SEO for Expert Witness Sites - Precise Wolf Digital",
     description:
       "Learn how to use keyword mapping to strengthen SEO, improve site structure, and attract legal professionals to your expert witness services.",
-    url: `https://latinowebstudio.com/articles/keyword-mapping`,
+    url: `https://www.precisewolf.com/articles/keyword-mapping`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/keyword-mapping-01.png`,
+        url: `https://www.precisewolf.com/articles/keyword-mapping-01.png`,
         width: 1200,
         height: 630,
         alt: "Keyword Mapping Guide - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/keyword-mapping",
+    canonical: "https://www.precisewolf.com/articles/keyword-mapping",
   },
 };
 
@@ -56,11 +56,11 @@ export default function KeywordMapping() {
               "keyword mapping, keyword clustering, technical SEO, search intent, expert witness SEO, legal marketing, URL strategy",
             wordCount: 1500,
             image:
-              "https://latinowebstudio.com/articles/keyword-mapping-01.png",
+              "https://www.precisewolf.com/articles/keyword-mapping-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
               sameAs: "https://www.linkedin.com/in/tadeomartinez",
             },
             publisher: {
@@ -68,12 +68,12 @@ export default function KeywordMapping() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/keyword-mapping",
+              "@id": "https://www.precisewolf.com/articles/keyword-mapping",
             },
             isAccessibleForFree: true,
             inLanguage: "en",
@@ -141,11 +141,11 @@ export default function KeywordMapping() {
             Keyword mapping is the methodical process of assigning specific
             search terms to the most appropriate pages on your website. This
             process ensures that your site structure supports a focused{" "}
-            <Link href="https://latinowebstudio.com/blog/content-strategy">
+            <Link href="https://www.precisewolf.com/blog/content-strategy">
               content strategy
             </Link>{" "}
             and enhances search engine visibility. For{" "}
-            <Link href="https://latinowebstudio.com/blog/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/blog/what-how-expert-witness">
               expert witnesses
             </Link>
             , having a well-organized keyword map means that your core expertise
@@ -189,7 +189,7 @@ export default function KeywordMapping() {
           <p className="mb-4 text-gray-700">
             Mapping keywords helps prevent dilution of authority across multiple
             pages. When each keyword is purposefully assigned to a single URL,{" "}
-            <Link href="https://latinowebstudio.com/blog/google-search-rankings">
+            <Link href="https://www.precisewolf.com/blog/google-search-rankings">
               your chances of ranking for that term increase
             </Link>
             . This is essential for expert witnesses wanting to get found by
@@ -224,7 +224,7 @@ export default function KeywordMapping() {
           </h3>
           <p className="mb-4 text-gray-700">
             Start with{" "}
-            <Link href="https://latinowebstudio.com/blog/keyword-research">
+            <Link href="https://www.precisewolf.com/blog/keyword-research">
               keyword research
             </Link>{" "}
             using tools like Semrush, Ahrefs, or Google Keyword Planner. Focus
@@ -256,7 +256,7 @@ export default function KeywordMapping() {
           <p className="mb-4 text-gray-700">
             Assign the most appropriate keyword clusters to new or existing
             pages. Match each keyword with a URL that can best serve the{" "}
-            <Link href="https://latinowebstudio.com/blog/search-intent">
+            <Link href="https://www.precisewolf.com/blog/search-intent">
               search intent
             </Link>
             . Create new content when necessary if existing pages don&apos;t
@@ -319,7 +319,7 @@ export default function KeywordMapping() {
             Maintain clarity in your keyword assignments—never reuse a target
             keyword across multiple URLs. Ensure URLs are unique and aligned
             with intent.
-            <Link href="https://latinowebstudio.com/blog/keyword-stuffing">
+            <Link href="https://www.precisewolf.com/blog/keyword-stuffing">
               Avoid over-optimizing
             </Link>{" "}
             or ignoring keyword variation opportunities. Always write for the
@@ -342,7 +342,7 @@ export default function KeywordMapping() {
           </h2>
           <p className="mb-4 text-gray-700">
             Run competitor analysis with Ahrefs or Semrush to see what{" "}
-            <Link href="https://latinowebstudio.com/blog/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/blog/attorneys-keywords">
               legal keywords
             </Link>{" "}
             your peers rank for. Reverse engineer their content strategy and
@@ -377,7 +377,7 @@ export default function KeywordMapping() {
           <p className="mb-4 text-gray-700">
             Use your map to identify pages targeting similar terms. Consolidate
             or reassign content where overlap exists.{" "}
-            <Link href="https://latinowebstudio.com/blog/keyword-cannibalization">
+            <Link href="https://www.precisewolf.com/blog/keyword-cannibalization">
               Avoid competing with yourself
             </Link>{" "}
             for the same search results by maintaining a one-keyword-one-page
@@ -426,7 +426,7 @@ export default function KeywordMapping() {
             the foundation for visibility. For expert witnesses, it connects
             your authority with the legal professionals searching for it. At
             Precise Wolf Digital, we do{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               SEO for expert witnesses
             </Link>{" "}
             that reflect your expertise and map your authority to the right
@@ -451,7 +451,7 @@ export default function KeywordMapping() {
             Keyword mapping is the process of assigning specific keywords to
             specific pages on your website based on search intent and topic
             relevance. It supports SEO performance and improves{" "}
-            <Link href="https://latinowebstudio.com/blog/user-experience-ux">
+            <Link href="https://www.precisewolf.com/blog/user-experience-ux">
               user experience
             </Link>
             .

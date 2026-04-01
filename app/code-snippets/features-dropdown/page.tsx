@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Code Snippets - Featured Dropdown - Precise Wolf Digital",
   description: "Code snippet for features dropdown menu.",
   alternates: {
-    canonical: "https://latinowebstudio.com/get-started",
+    canonical: "https://www.precisewolf.com/get-started",
   },
   openGraph: {
     title: "Code Snippets - Featured Dropdown - Precise Wolf Digital",
     description: "Code snippet for features dropdown menu.",
-    url: "https://latinowebstudio.com/code-snippets/features-dropdown",
+    url: "https://www.precisewolf.com/code-snippets/features-dropdown",
     type: "website",
   },
 };

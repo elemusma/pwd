@@ -25,11 +25,11 @@ export const metadata: Metadata = {
       "Inside the Attorney's Mind Podcast - Expert Witness & Legal Insights - Precise Wolf Digital",
     description:
       "Listen to insights from legal professionals discussing expert witness practices, attorney strategies, and how to grow your legal business.",
-    url: "https://latinowebstudio.com/podcast",
+    url: "https://www.precisewolf.com/podcast",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
+        url: "https://www.precisewolf.com/podcast/Banner-FB-YT.jpg",
         width: 1200,
         height: 630,
         alt: "Inside the Attorney's Mind Podcast - Precise Wolf Digital",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast",
+    canonical: "https://www.precisewolf.com/podcast",
   },
 };
 
@@ -147,7 +147,7 @@ export default async function PodcastPage(props: {
               {posts.map((post, index) => {
                 const ogImage =
                   post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
-                  "https://latinowebstudio.com/default-og-image.jpg"; // fallback
+                  "https://www.precisewolf.com/default-og-image.jpg"; // fallback
 
                 const excerpt = stripHtmlAndDecode(post.excerpt.rendered).slice(
                   0,

@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     title: "Practice Areas | Precise Wolf Digital – SEO & eCommerce Development",
     description:
       "Explore our SEO and ADA Compliant web design services for expert witnesses and enterprise eCommerce businesses. Scalable platforms and content strategies tailored to your goals.",
-    url: "https://latinowebstudio.com/practice-areas",
+    url: "https://www.precisewolf.com/practice-areas",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+        url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
         width: 1200,
         height: 630,
         alt: "Precise Wolf Digital Practice Areas",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas",
+    canonical: "https://www.precisewolf.com/practice-areas",
   },
 };
 
@@ -43,7 +43,7 @@ export default function PracticeAreasPage() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Practice Areas | Precise Wolf Digital",
-            url: "https://latinowebstudio.com/practice-areas",
+            url: "https://www.precisewolf.com/practice-areas",
             description:
               "Explore SEO services for expert witnesses and enterprise eCommerce development solutions built to scale. Tailored, secure, and conversion-driven platforms.",
             inLanguage: "en",
@@ -53,7 +53,7 @@ export default function PracticeAreasPage() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
               sameAs: [
                 "https://www.linkedin.com/in/ted-martinez-seo/",

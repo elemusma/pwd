@@ -7,17 +7,17 @@ export const metadata: Metadata = {
   description:
     "Book a call with Tadeo Martinez of Precise Wolf Digital to discuss your web design, SEO, or marketing strategy needs.",
   alternates: {
-    canonical: "https://latinowebstudio.com/calendar",
+    canonical: "https://www.precisewolf.com/calendar",
   },
   openGraph: {
     title: "Schedule a Call with Tadeo (Ted) Martinez | Precise Wolf Digital",
     description:
       "Book a call with Tadeo Martinez of Precise Wolf Digital to discuss your web design, SEO, or marketing strategy needs.",
-    url: "https://latinowebstudio.com/calendar",
+    url: "https://www.precisewolf.com/calendar",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
+        url: "https://www.precisewolf.com/podcast/Inside-The-Attorneys-Mind-Podcast.jpg",
         width: 1200,
         height: 630,
         alt: "Tadeo Martinez - Precise Wolf Digital",
@@ -38,12 +38,12 @@ export default function CalendarPage() {
             name: "Schedule a Call with Tadeo (Ted) Martinez",
             description:
               "Book a call with Tadeo Martinez of Precise Wolf Digital to discuss your web design, SEO, or marketing strategy needs.",
-            url: "https://latinowebstudio.com/schedule",
+            url: "https://www.precisewolf.com/schedule",
             mainEntity: {
               "@type": "Person",
               name: "Tadeo Martinez",
               jobTitle: "Founder & Web Strategist",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
               sameAs: [
                 "https://www.linkedin.com/in/tadeomartinez",
                 "https://latinowebstudio.com",

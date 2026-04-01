@@ -28,11 +28,11 @@ export const metadata: Metadata = {
       "HIPAA-Compliant Website Design for Expert Witnesses | Precise Wolf Digital",
     description:
       "Secure, attorney-focused HIPAA-compliant websites for medical expert witnesses. Built with encryption, consent-based forms, BAA-ready hosting, and ADA compliance.",
-    url: "https://latinowebstudio.com/practice-areas/hipaa-compliance",
+    url: "https://www.precisewolf.com/practice-areas/hipaa-compliance",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/practice-areas/Hipaa-Compliance.jpg",
+        url: "https://www.precisewolf.com/practice-areas/Hipaa-Compliance.jpg",
         width: 1200,
         height: 630,
         alt: "HIPAA-Compliant Website Design by Precise Wolf Digital",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas/hipaa-compliance",
+    canonical: "https://www.precisewolf.com/practice-areas/hipaa-compliance",
   },
 };
 
@@ -63,7 +63,7 @@ export default function PracticeAreasHIPAACOMPLIANCE() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             areaServed: {
@@ -75,9 +75,9 @@ export default function PracticeAreasHIPAACOMPLIANCE() {
               audienceType:
                 "Medical Expert Witnesses, IME Providers, Legal Professionals",
             },
-            url: "https://latinowebstudio.com/practice-areas/hipaa-compliance",
+            url: "https://www.precisewolf.com/practice-areas/hipaa-compliance",
             image:
-              "https://latinowebstudio.com/practice-areas/Hipaa-Compliance.jpg",
+              "https://www.precisewolf.com/practice-areas/Hipaa-Compliance.jpg",
             inLanguage: "en",
             keywords: [
               "HIPAA website design",

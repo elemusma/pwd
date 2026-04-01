@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Mobile Responsiveness for Expert Witness Websites - Precise Wolf Digital",
     description:
       "If your website doesn't adapt to mobile screens, you're invisible to the majority of attorneys searching for your expertise.",
-    url: `https://latinowebstudio.com/articles/mobile-responsiveness`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/mobile-responsiveness`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Mobile-Responsiveness-Expert-Witness-Websites-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Mobile-Responsiveness-Expert-Witness-Websites-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Mobile Responsiveness for Expert Witness Websites - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/mobile-responsiveness", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/mobile-responsiveness", // Replace with the actual canonical URL
   },
 };
 
@@ -50,18 +50,18 @@ export default function MobileResponsiveness() {
             description:
               "If your website doesn't adapt to mobile screens, you're invisible to the majority of attorneys searching for your expertise.",
             image:
-              "https://latinowebstudio.com/articles/Mobile-Responsiveness-Expert-Witness-Websites-01.png",
+              "https://www.precisewolf.com/articles/Mobile-Responsiveness-Expert-Witness-Websites-01.png",
             author: {
               "@type": "Person",
               name: "Your Author Name",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-14",
@@ -69,7 +69,7 @@ export default function MobileResponsiveness() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/mobile-responsiveness",
+                "https://www.precisewolf.com/articles/mobile-responsiveness",
             },
             inLanguage: "en",
             keywords:
@@ -101,7 +101,7 @@ export default function MobileResponsiveness() {
             Over 60% of all web traffic now comes from mobile devices. That
             includes lawyers searching for expert witnesses, reviewing
             credentials, and making contact decisions while on the move. If your{" "}
-            <Link href="https://latinowebstudio.com/articles/lawyers-experts-websites">
+            <Link href="https://www.precisewolf.com/articles/lawyers-experts-websites">
               website
             </Link>{" "}
             doesn&apos;t adapt to mobile screens, you&apos;re invisible to the
@@ -185,7 +185,7 @@ export default function MobileResponsiveness() {
           </p>
           <p className="text-base leading-relaxed text-gray-600 mb-4">
             We also research and implement{" "}
-            <Link href="https://latinowebstudio.com/articles/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/articles/attorneys-keywords">
               keywords lawyers
             </Link>{" "}
             actually use, such as &quot;
@@ -226,14 +226,14 @@ export default function MobileResponsiveness() {
           </p>
           <p className="text-base leading-relaxed text-gray-600 mb-4">
             A mobile-responsive expert witness site helps you rank higher, build{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">trust</Link>{" "}
+            <Link href="https://www.precisewolf.com/articles/eeat">trust</Link>{" "}
             faster, and create a positive experience that encourages contact.
             It&apos;s not just about aesthetics—it&apos;s a business asset.
           </p>
           <p className="text-base leading-relaxed text-gray-600 mb-4">
             Precise Wolf Digital partners with expert witnesses to build
             mobile-optimized,{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               SEO-aligned websites
             </Link>{" "}
             that support your authority and connect them with legal

@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     title: "SEO Strategies for Expert Witness - Precise Wolf Digital",
     description:
       "To convert lawyer traffic into real case inquiries, expert witness websites must meet searchers where they are—through precise SEO architecture",
-    url: `https://latinowebstudio.com/articles/seo-expert-witnesses`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/seo-expert-witnesses`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/seo-expert-witnesses/SEO-Expert-Witnesses-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/seo-expert-witnesses/SEO-Expert-Witnesses-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "SEO Strategies for Expert Witness - Precise Wolf Digital",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/seo-expert-witnesses", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/seo-expert-witnesses", // Replace with the actual canonical URL
   },
 };
 
@@ -46,18 +46,18 @@ export default function SEOExpertWitnesses() {
             description:
               "To convert lawyer traffic into real case inquiries, expert witness websites must meet searchers where they are—through precise SEO architecture",
             image:
-              "https://latinowebstudio.com/articles/seo-expert-witnesses/SEO-Expert-Witnesses-01.png",
+              "https://www.precisewolf.com/articles/seo-expert-witnesses/SEO-Expert-Witnesses-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-20",
@@ -65,7 +65,7 @@ export default function SEOExpertWitnesses() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/seo-expert-witnesses",
+                "https://www.precisewolf.com/articles/seo-expert-witnesses",
             },
             inLanguage: "en",
             keywords:

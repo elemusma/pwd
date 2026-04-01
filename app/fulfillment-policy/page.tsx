@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Our fulfillment policy outlines how we deliver our services, including timelines, responsibilities, and refund terms, including a 14-day money-back guarantee.",
   alternates: {
-    canonical: "https://latinowebstudio.com/fulfillment-policy",
+    canonical: "https://www.precisewolf.com/fulfillment-policy",
   },
   openGraph: {
     title: "Fulfillment Policy | Precise Wolf Digital",
     description:
       "Our fulfillment policy outlines how we deliver our services, including timelines, responsibilities, and refund terms, including a 14-day money-back guarantee.",
-    url: "https://latinowebstudio.com/fulfillment-policy",
+    url: "https://www.precisewolf.com/fulfillment-policy",
     type: "website",
     siteName: "Precise Wolf Digital",
   },
@@ -113,13 +113,13 @@ export default function FulfillmentPolicyPage() {
             name: "Fulfillment Policy | Precise Wolf Digital",
             description:
               "Our fulfillment policy outlines how we deliver our services, including timelines, responsibilities, and refund terms, including a 14-day money-back guarantee.",
-            url: "https://latinowebstudio.com/fulfillment-policy",
+            url: "https://www.precisewolf.com/fulfillment-policy",
             publisher: {
               "@type": "Organization",
               name: "The Designer Developer, LLC, DBA Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/logo.png",
+                url: "https://www.precisewolf.com/logo.png",
               },
             },
             mainEntity: {

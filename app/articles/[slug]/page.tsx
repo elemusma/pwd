@@ -90,13 +90,13 @@ export async function generateMetadata({
     openGraph: {
       title: `${post.title.rendered} | Precise Wolf Digital`,
       description: post.excerpt.rendered.replace(/<[^>]*>/g, "").trim(),
-      url: `https://latinowebstudio.com/articles/${slug}`,
+      url: `https://www.precisewolf.com/articles/${slug}`,
       type: "article",
       images: [
         {
           url:
             post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ??
-            "https://latinowebstudio.com/default-og-image.jpg",
+            "https://www.precisewolf.com/default-og-image.jpg",
           width: 1200,
           height: 630,
           alt: post.title.rendered,
@@ -104,7 +104,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: `https://latinowebstudio.com/articles/${slug}`,
+      canonical: `https://www.precisewolf.com/articles/${slug}`,
     },
   };
 }

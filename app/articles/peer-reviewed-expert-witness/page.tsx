@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     title: "Peer Review in Expert Witness Testimony - Precise Wolf Digital",
     description:
       "Expert witnesses serve a critical role in legal proceedings by providing specialized knowledge that assists judges and juries in understanding complex issues.",
-    url: `https://latinowebstudio.com/articles/peer-reviewed-expert-witness`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/peer-reviewed-expert-witness`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Peer-Review-Expert-Witness-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Peer-Review-Expert-Witness-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "From Search to Retainer: A Precision SEO & UX Framework for Expert Witnesses - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   // ✅ Add this block:
   alternates: {
     canonical:
-      "https://latinowebstudio.com/articles/peer-reviewed-expert-witness", // Replace with the actual canonical URL
+      "https://www.precisewolf.com/articles/peer-reviewed-expert-witness", // Replace with the actual canonical URL
   },
 };
 
@@ -49,18 +49,18 @@ export default function PeerReviewedExpertWitness() {
             description:
               "Expert witnesses serve a critical role in legal proceedings by providing specialized knowledge that assists judges and juries in understanding complex issues.",
             image:
-              "https://latinowebstudio.com/articles/Peer-Review-Expert-Witness-01.png",
+              "https://www.precisewolf.com/articles/Peer-Review-Expert-Witness-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-06-29",
@@ -68,7 +68,7 @@ export default function PeerReviewedExpertWitness() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/peer-reviewed-expert-witness",
+                "https://www.precisewolf.com/articles/peer-reviewed-expert-witness",
             },
             inLanguage: "en",
             keywords:
@@ -97,7 +97,7 @@ export default function PeerReviewedExpertWitness() {
             Enhancing Credibility and Courtroom Admissibility
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               Expert witnesses
             </Link>{" "}
             serve a critical role in legal proceedings by providing specialized

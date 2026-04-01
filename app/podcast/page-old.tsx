@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "Inside the Attorney's Mind Podcast for Expert Witnesses | Precise Wolf Digital",
     description:
       "A podcast for expert witnesses featuring real attorneys sharing how they choose and work with experts. Be a guest attorney and help educate the expert community.",
-    url: "https://latinowebstudio.com/podcast",
+    url: "https://www.precisewolf.com/podcast",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/podcast/bruning-legal-st-louis.jpg",
+        url: "https://www.precisewolf.com/podcast/bruning-legal-st-louis.jpg",
         width: 1200,
         height: 630,
         alt: "Inside the Attorney's Mind Podcast - Precise Wolf Digital",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast",
+    canonical: "https://www.precisewolf.com/podcast",
   },
 };
 
@@ -46,25 +46,25 @@ export default function PodcastPage() {
               "@context": "https://schema.org",
               "@type": "PodcastSeries",
               name: "Inside the Attorney's Mind",
-              url: "https://latinowebstudio.com/podcast",
+              url: "https://www.precisewolf.com/podcast",
               description:
                 "A podcast helping expert witnesses understand how attorneys think. Each episode features real lawyers discussing how they choose and work with expert witnesses.",
               genre: ["Legal", "Education", "Professional Development"],
-              image: "https://latinowebstudio.com/podcast/Podcast.jpg",
+              image: "https://www.precisewolf.com/podcast/Podcast.jpg",
               creator: {
                 "@type": "Organization",
                 name: "Precise Wolf Digital",
                 url: "https://latinowebstudio.com",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                  url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
                 },
               },
               inLanguage: "en",
               potentialAction: {
                 "@type": "ListenAction",
                 target: [
-                  "https://latinowebstudio.com/podcast",
+                  "https://www.precisewolf.com/podcast",
                   "https://open.spotify.com/show/yourshowlink",
                   "https://podcasts.apple.com/yourshowlink",
                 ],

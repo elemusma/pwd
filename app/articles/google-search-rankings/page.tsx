@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Google Search Rankings: How Expert Witnesses Can Improve Visibility in 2025 - Precise Wolf Digital",
     description:
       "Learn how expert witnesses can improve their Google search rankings using proven SEO, UX, and technical strategies. Get found by attorneys searching online in 2025.",
-    url: `https://latinowebstudio.com/articles/google-search-rankings`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/google-search-rankings`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/google-search-rankings-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/google-search-rankings-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Google Search Rankings: How Expert Witnesses Can Improve Visibility in 2025 - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/google-search-rankings", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/google-search-rankings", // Replace with the actual canonical URL
   },
 };
 
@@ -57,24 +57,24 @@ export default function GoogleSearchRankings() {
               "SEO for expert witnesses, Google search ranking, legal SEO, structured data, backlinks, technical SEO, mobile performance",
             wordCount: 2000,
             image:
-              "https://latinowebstudio.com/articles/google-search-rankings-01.png",
+              "https://www.precisewolf.com/articles/google-search-rankings-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/google-search-rankings",
+                "https://www.precisewolf.com/articles/google-search-rankings",
             },
             inLanguage: "en",
             audience: {
@@ -166,7 +166,7 @@ export default function GoogleSearchRankings() {
             witnesses, appearing at the top of those results can mean the
             difference between being retained or ignored. High-ranking pages
             earn trust, traffic, and ultimately more cases. While{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               SEO
             </Link>{" "}
             doesn&apos;t guarantee client acquisition, it raises the probability
@@ -235,7 +235,7 @@ export default function GoogleSearchRankings() {
             Several systems operate behind the scenes when Google ranks results.
             PageRank evaluates the quality and quantity of links pointing to a
             page, rewarding those with{" "}
-            <Link href="https://latinowebstudio.com/articles/citations-directories">
+            <Link href="https://www.precisewolf.com/articles/citations-directories">
               credible citations
             </Link>
             . BERT helps Google understand the meaning of phrases and questions,
@@ -243,7 +243,7 @@ export default function GoogleSearchRankings() {
             formats and languages, beneficial if you&apos;re published
             internationally or cited in multilingual sources. Neural Matching
             enables Google to align content with{" "}
-            <Link href="https://latinowebstudio.com/articles/search-intent">
+            <Link href="https://www.precisewolf.com/articles/search-intent">
               search intent
             </Link>{" "}
             even when keywords don&apos;t exactly match.
@@ -293,7 +293,7 @@ export default function GoogleSearchRankings() {
             Technical SEO: Indexing, Speed, and Mobile Performance
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               Technical SEO
             </Link>{" "}
             ensures that your site is discoverable and usable. If your site
@@ -442,7 +442,7 @@ export default function GoogleSearchRankings() {
             Structured data helps Google understand your content better and may
             unlock rich results like FAQ boxes, review stars, or breadcrumbs.
             Use{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               schema markup
             </Link>{" "}
             for professional services, articles, and FAQs to improve how your

@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "AI-Search Domination for Expert Witnesses - Get Shown in AI Search Results When Attorneys Search for Expert Witnesses - Precise Wolf Digital",
     description:
       "The landscape of online search is evolving rapidly with the rise of AI-powered search engines like Google's Search Generative Experience.",
-    url: `https://latinowebstudio.com/articles/ai-ranking`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/ai-ranking`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/AI-Expert-Witnesses-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/AI-Expert-Witnesses-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "AI-Search Domination for Expert Witnesses: A Tactical Blueprint for Earning Top Spots in Attorney-Focused Answer Engines - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/ai-ranking",
+    canonical: "https://www.precisewolf.com/articles/ai-ranking",
   },
 };
 
@@ -47,13 +47,13 @@ export default function AIRankingExpertWitness() {
             "@type": "BlogPosting",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/ai-ranking",
+              "@id": "https://www.precisewolf.com/articles/ai-ranking",
             },
             headline: "AI-Search Results Domination for Expert Witnesses",
             description:
               "Learn how expert witnesses can dominate AI-powered search results through structured content, schema markup, and E-E-A-T strategies.",
             image:
-              "https://latinowebstudio.com/articles/AI-Expert-Witnesses-01.png",
+              "https://www.precisewolf.com/articles/AI-Expert-Witnesses-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
@@ -64,7 +64,7 @@ export default function AIRankingExpertWitness() {
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/logo.png",
+                url: "https://www.precisewolf.com/logo.png",
               },
             },
             datePublished: "2025-06-05",
@@ -111,7 +111,7 @@ export default function AIRankingExpertWitness() {
             queries without requiring traditional clicks, reducing the
             visibility of websites that rely solely on conventional SEO
             practices. For{" "}
-            <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+            <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
               expert witnesses
             </Link>
             , this marks a pivotal shift: success in digital visibility now
@@ -160,7 +160,7 @@ export default function AIRankingExpertWitness() {
           </p>
           <p className="text-base text-gray-600 mb-4">
             Long-tail keywords, once a supplement to{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               core SEO strategy
             </Link>
             , now play a central role. These phrases mirror natural language and
@@ -177,7 +177,7 @@ export default function AIRankingExpertWitness() {
             Strategy 2: Enhancing Discoverability with Schema Markup
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               Schema markup enables expert witness websites
             </Link>{" "}
             to define the context of their content in a structured format
@@ -223,7 +223,7 @@ export default function AIRankingExpertWitness() {
             Strategy 3: Building Legal E-E-A-T Signals
           </h2>
           <p className="text-base text-gray-600 mb-4">
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               E-E-A-T—Experience, Expertise, Authoritativeness, and
               Trustworthiness
             </Link>
@@ -242,7 +242,7 @@ export default function AIRankingExpertWitness() {
           <p className="text-base text-gray-600 mb-4">
             Authoritativeness is built through consistent publishing of
             topic-specific content and the presence of{" "}
-            <Link href="https://latinowebstudio.com/articles/citations-directories">
+            <Link href="https://www.precisewolf.com/articles/citations-directories">
               citations or backlinks
             </Link>{" "}
             from reputable legal directories or publications. Trustworthiness

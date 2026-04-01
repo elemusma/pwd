@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Search Results: How SERPs Work and How to Win Visibility - Precise Wolf Digital",
     description:
       "Search results are the ordered answers a search engine returns after a user types a query.",
-    url: `https://latinowebstudio.com/articles/search-results`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/search-results`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Search-Results.jpg`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Search-Results.jpg`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "Search Results: How SERPs Work and How to Win Visibility - Precise Wolf Digital",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/search-intent", // Replace with the actual canonical URL
+    canonical: "https://www.precisewolf.com/articles/search-intent", // Replace with the actual canonical URL
   },
 };
 
@@ -50,25 +50,25 @@ export default function SearchIntent() {
               "Search Results: How SERPs Work and How to Win Visibility",
             description:
               "Learn how search results work, the different types of SERP features, and how to optimize your content for greater visibility online.",
-            image: "https://latinowebstudio.com/articles/Search-Results.jpg",
+            image: "https://www.precisewolf.com/articles/Search-Results.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-08-09",
             dateModified: "2025-08-09",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/search-results",
+              "@id": "https://www.precisewolf.com/articles/search-results",
             },
             inLanguage: "en",
             keywords:
@@ -192,13 +192,13 @@ export default function SearchIntent() {
               </h2>{" "}
               <p className="mb-4">
                 Search results are the ordered answers a{" "}
-                <Link href="https://latinowebstudio.com/articles/search-engines">
+                <Link href="https://www.precisewolf.com/articles/search-engines">
                   search engine
                 </Link>{" "}
                 returns after a user types a query. At a glance they look
                 simple: a page of blue links with snippets beneath them. Under
                 the hood, though, a{" "}
-                <Link href="https://latinowebstudio.com/articles/google-search-rankings">
+                <Link href="https://www.precisewolf.com/articles/google-search-rankings">
                   ranking system
                 </Link>{" "}
                 evaluates a vast index of pages, estimates which ones best
@@ -219,7 +219,7 @@ export default function SearchIntent() {
                 A modern SERP is not only a list of web pages. It can also
                 surface direct answers, images, videos, shopping units, map
                 packs, and knowledge panels. These elements are chosen based{" "}
-                <Link href="https://latinowebstudio.com/articles/search-intent">
+                <Link href="https://www.precisewolf.com/articles/search-intent">
                   on the intent the system infers from the query
                 </Link>{" "}
                 and the data available for eligible results. The page layout is
@@ -230,7 +230,7 @@ export default function SearchIntent() {
               <p className="mb-4">
                 Understanding these building blocks helps writers, marketers,
                 and{" "}
-                <Link href="https://latinowebstudio.com/articles/what-how-expert-witness">
+                <Link href="https://www.precisewolf.com/articles/what-how-expert-witness">
                   expert witnesses
                 </Link>{" "}
                 position content where potential clients or researchers actually
@@ -242,7 +242,7 @@ export default function SearchIntent() {
               </h2>{" "}
               <p className="mb-4">
                 Visibility on SERPs drives{" "}
-                <Link href="https://latinowebstudio.com/articles/web-traffic">
+                <Link href="https://www.precisewolf.com/articles/web-traffic">
                   organic web traffic
                 </Link>
                 , and traffic drives opportunity. Higher positions tend to
@@ -298,7 +298,7 @@ export default function SearchIntent() {
                 visitor to continue.
               </p>{" "}
               <p className="mb-4">
-                <Link href="https://latinowebstudio.com/articles/schema-markup">
+                <Link href="https://www.precisewolf.com/articles/schema-markup">
                   Structured data
                 </Link>{" "}
                 enhancements add optional context for eligible content types.
@@ -315,18 +315,18 @@ export default function SearchIntent() {
               <p className="mb-4">
                 Content quality is the core driver. Clear answers, accurate
                 explanations, and helpful depth demonstrate expertise.{" "}
-                <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+                <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
                   On-page SEO
                 </Link>{" "}
                 expresses that quality in a machine-readable way through
                 descriptive headings, concise titles, internal linking, and
                 logical structure. Backlinks act like{" "}
-                <Link href="https://latinowebstudio.com/articles/citations-directories">
+                <Link href="https://www.precisewolf.com/articles/citations-directories">
                   citations
                 </Link>
                 , signaling that other sites consider your content worth
                 referencing.{" "}
-                <Link href="https://latinowebstudio.com/articles/user-experience-ux">
+                <Link href="https://www.precisewolf.com/articles/user-experience-ux">
                   User experience
                 </Link>{" "}
                 ties it together: fast load time, mobile-friendly layout, secure
@@ -505,7 +505,7 @@ export default function SearchIntent() {
               <p className="mb-4">
                 At the same time, interfaces continue to incorporate
                 AI-generated summaries for some queries as part of{" "}
-                <Link href="https://latinowebstudio.com/articles/ai-powered-search">
+                <Link href="https://www.precisewolf.com/articles/ai-powered-search">
                   AI powered searches
                 </Link>
                 . These overviews aim to synthesize sources to answer quickly,

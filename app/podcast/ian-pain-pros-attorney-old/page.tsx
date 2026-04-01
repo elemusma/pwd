@@ -22,11 +22,11 @@ export const metadata: Metadata = {
       "Ian Grady with Pain Pros Injury Attorneys - Advice from a Litigation Attorney",
     description:
       "In a recent conversation with trial attorney Ian Grady, we explored the realities of how lawyers choose experts, what marketing approaches help (or hurt) credibility, why responsible AI use is unavoidable, and why collaboration is a powerful — yet underutilized — strategy for experts.",
-    url: `https://latinowebstudio.com/podcast/ian-pain-pros-attorney/`,
+    url: `https://www.precisewolf.com/podcast/ian-pain-pros-attorney/`,
     type: "article",
     images: [
       {
-        url: `https://latinowebstudio.com/podcast/ian-pain-pros-attorney.jpg`,
+        url: `https://www.precisewolf.com/podcast/ian-pain-pros-attorney.jpg`,
         width: 1200,
         height: 630,
         alt: "Ian Grady Podcast Episode - Precise Wolf Digital",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/ian-pain-pros-attorney",
+    canonical: "https://www.precisewolf.com/podcast/ian-pain-pros-attorney",
   },
 };
 
@@ -50,7 +50,7 @@ export default function PodcastEpisodeIanPainPros() {
             name: "Ian Grady with Pain Pros Injury Attorneys - Advice from a Litigation Attorney",
             description:
               "In a recent conversation with trial attorney Ian Grady, we explored the realities of how lawyers choose experts, what marketing approaches help (or hurt) credibility, why responsible AI use is unavoidable, and why collaboration is a powerful — yet underutilized — strategy for experts.",
-            url: "https://latinowebstudio.com/podcast/ian-pain-pros-attorney/",
+            url: "https://www.precisewolf.com/podcast/ian-pain-pros-attorney/",
             datePublished: "2025-08-09",
             dateModified: "2025-08-09",
             isPartOf: {
@@ -58,24 +58,24 @@ export default function PodcastEpisodeIanPainPros() {
               name: "Ian Grady Guest in Podcast",
             },
             image:
-              "https://latinowebstudio.com/podcast/ian-pain-pros-attorney.jpg",
+              "https://www.precisewolf.com/podcast/ian-pain-pros-attorney.jpg",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/podcast/ian-pain-pros-attorney/",
+                "https://www.precisewolf.com/podcast/ian-pain-pros-attorney/",
             },
             inLanguage: "en",
             keywords:
@@ -84,7 +84,7 @@ export default function PodcastEpisodeIanPainPros() {
               "@type": "ListenAction",
               target: [
                 "https://www.youtube.com/watch?v=g9FMGRbvRuY",
-                "https://latinowebstudio.com/podcast/ian-pain-pros-attorney/",
+                "https://www.precisewolf.com/podcast/ian-pain-pros-attorney/",
               ],
             },
             performer: {
@@ -336,7 +336,7 @@ export default function PodcastEpisodeIanPainPros() {
                 unprofessional if their marketing looks too flashy or one-sided.
                 <br />- B2B vs. B2C. Law firms market directly to injured
                 clients (B2C), often with bold campaigns.{" "}
-                <Link href="https://latinowebstudio.com/articles/marketing-strategies">
+                <Link href="https://www.precisewolf.com/articles/marketing-strategies">
                   Experts are marketing to attorneys (B2B)
                 </Link>
                 , where professionalism and trust are paramount.
@@ -550,7 +550,7 @@ export default function PodcastEpisodeIanPainPros() {
                 For expert witnesses, the challenge is balancing visibility with
                 credibility. It means using modern tools like AI and hiring the
                 right{" "}
-                <Link href="https://latinowebstudio.com/practice-areas/seo">
+                <Link href="https://www.precisewolf.com/practice-areas/seo">
                   SEO vendor
                 </Link>{" "}
                 without undermining professional objectivity. It means

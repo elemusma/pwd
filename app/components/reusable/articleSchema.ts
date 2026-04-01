@@ -33,18 +33,18 @@ export const getArticleSchema = ({
   author: {
     "@type": "Person",
     name: "Tadeo Martinez",
-    url: "https://latinowebstudio.com/about",
+    url: "https://www.precisewolf.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Precise Wolf Digital",
     logo: {
       "@type": "ImageObject",
-      url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+      url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": `https://latinowebstudio.com/articles/${slug}`,
+    "@id": `https://www.precisewolf.com/articles/${slug}`,
   },
 });

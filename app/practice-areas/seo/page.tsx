@@ -26,11 +26,11 @@ export const metadata: Metadata = {
       "Search Engine Optimization (SEO) for Expert Witnesses - Get Found by Attorneys | Precise Wolf Digital",
     description:
       "Search Engine Optimization designed specifically for expert witnesses. Improve your visibility, load speed, and ADA compliance to get more attorney inquiries.",
-    url: "https://latinowebstudio.com/practice-areas/seo",
+    url: "https://www.precisewolf.com/practice-areas/seo",
     type: "website",
     images: [
       {
-        url: "https://latinowebstudio.com/practice-areas/Experts-Search-Engine-Optimization.jpg",
+        url: "https://www.precisewolf.com/practice-areas/Experts-Search-Engine-Optimization.jpg",
         width: 1200,
         height: 630,
         alt: "Search Engine Optimization (SEO) for Expert Witnesses - Precise Wolf Digital",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/practice-areas/seo",
+    canonical: "https://www.precisewolf.com/practice-areas/seo",
   },
 };
 
@@ -56,9 +56,9 @@ export default function PracticeAreasSEO() {
             name: "Search Engine Optimization (SEO) for Expert Witnesses",
             description:
               "Search engine optimization (SEO) for expert witnesses designed to help expert witnesses get found by attorneys. Includes technical SEO, ADA compliance, fast loading speeds, and content strategy.",
-            url: "https://latinowebstudio.com/practice-areas/seo",
+            url: "https://www.precisewolf.com/practice-areas/seo",
             image:
-              "https://latinowebstudio.com/practice-areas/Experts-Search-Engine-Optimization.jpg",
+              "https://www.precisewolf.com/practice-areas/Experts-Search-Engine-Optimization.jpg",
             keywords:
               "SEO for expert witnesses, legal SEO, attorney visibility, expert witness marketing, search engine optimization for experts, lawyer SEO, website optimization, ADA compliance SEO, content marketing for experts",
             inLanguage: "en",
@@ -77,7 +77,7 @@ export default function PracticeAreasSEO() {
               url: "https://latinowebstudio.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             hasOfferCatalog: {
@@ -662,7 +662,7 @@ export default function PracticeAreasSEO() {
           evaluate and rank content. For expert witnesses, this means having a
           fast, mobile-friendly site with clear information about your
           expertise, using the right{" "}
-          <Link href="https://latinowebstudio.com/blog/attorneys-keywords">
+          <Link href="https://www.precisewolf.com/blog/attorneys-keywords">
             keywords that attorneys are searching
           </Link>
           . These elements help search engines show your profile to attorneys
@@ -695,7 +695,7 @@ export default function PracticeAreasSEO() {
           credibility, and relevance so you can attract more qualified leads and
           grow your reputation as a trusted authority in your field. It is
           extremely beneficial and helpful even when you are already on{" "}
-          <Link href="https://latinowebstudio.com/blog/expert-witness-directories">
+          <Link href="https://www.precisewolf.com/blog/expert-witness-directories">
             directories
           </Link>{" "}
           like Seak, JurisPro, and others.

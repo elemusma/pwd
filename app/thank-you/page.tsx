@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Thank you for reaching out to Precise Wolf Digital. We’ve received your message and will get back to you shortly.",
   alternates: {
-    canonical: "https://latinowebstudio.com/thank-you",
+    canonical: "https://www.precisewolf.com/thank-you",
   },
   openGraph: {
     title: "Thank You | Precise Wolf Digital",
     description:
       "Thank you for reaching out to Precise Wolf Digital. We’ve received your message and will get back to you shortly.",
-    url: "https://latinowebstudio.com/thank-you",
+    url: "https://www.precisewolf.com/thank-you",
     type: "website",
     siteName: "Precise Wolf Digital",
   },

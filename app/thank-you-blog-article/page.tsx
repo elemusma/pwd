@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Thanks for requesting the white paper. Learn how to get more legal cases and be found by attorneys. Contact Ted for personalized support.",
   alternates: {
-    canonical: "https://latinowebstudio.com/thank-you-white-paper",
+    canonical: "https://www.precisewolf.com/thank-you-white-paper",
   },
   openGraph: {
     title: "White Paper Requested | Precise Wolf Digital",
     description:
       "Thanks for requesting the white paper. Learn how to get more legal cases and be found by attorneys. Contact Ted for personalized support.",
-    url: "https://latinowebstudio.com/thank-you-white-paper",
+    url: "https://www.precisewolf.com/thank-you-white-paper",
     type: "website",
     siteName: "Precise Wolf Digital",
   },

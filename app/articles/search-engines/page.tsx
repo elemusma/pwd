@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       "Search Engines: Technology, Trends, and Strategic Insights - Precise Wolf Digital",
     description:
       "Understand how search engines work, explore privacy-first alternatives, and learn SEO strategies tailored to expert witnesses seeking attorney visibility.",
-    url: "https://latinowebstudio.com/articles/search-engines", // Replace with your live URL
+    url: "https://www.precisewolf.com/articles/search-engines", // Replace with your live URL
     type: "article",
     images: [
       {
-        url: "https://latinowebstudio.com/articles/Search-Engines.jpg", // Replace if you have a custom image
+        url: "https://www.precisewolf.com/articles/Search-Engines.jpg", // Replace if you have a custom image
         width: 1200,
         height: 630,
         alt: "Search Engines: Technology, Trends, and Strategic Insights - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/search-engines",
+    canonical: "https://www.precisewolf.com/articles/search-engines",
   },
   keywords: [
     "search engine strategy",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Tadeo Martinez",
-      url: "https://latinowebstudio.com/about",
+      url: "https://www.precisewolf.com/about",
     },
   ],
   category: "Legal SEO",
@@ -68,25 +68,25 @@ export default function SearchEngines() {
             description:
               "A technical yet accessible breakdown of how search engines work, how expert witnesses can improve visibility, and where the future of discovery is heading.",
             image:
-              "https://latinowebstudio.com/articles/Expert-Witnesses-Schema-Markup-01.png",
+              "https://www.precisewolf.com/articles/Expert-Witnesses-Schema-Markup-01.png",
             author: {
               "@type": "Person",
               name: "Tadeo Martinez",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-08-06",
             dateModified: "2025-08-06",
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://latinowebstudio.com/articles/search-engines",
+              "@id": "https://www.precisewolf.com/articles/search-engines",
             },
             inLanguage: "en",
             keywords:
@@ -98,11 +98,11 @@ export default function SearchEngines() {
             isPartOf: {
               "@type": "Blog",
               name: "Precise Wolf Digital Articles",
-              url: "https://latinowebstudio.com/articles",
+              url: "https://www.precisewolf.com/articles",
             },
             potentialAction: {
               "@type": "ReadAction",
-              target: "https://latinowebstudio.com/articles/search-engines",
+              target: "https://www.precisewolf.com/articles/search-engines",
             },
             mainEntity: [
               {
@@ -162,7 +162,7 @@ export default function SearchEngines() {
             processing capabilities, and brand recognition. Yet, the search
             landscape is no longer static. Alternative platforms— prioritizing
             privacy,{" "}
-            <Link href="https://latinowebstudio.com/blog/ai-ranking">
+            <Link href="https://www.precisewolf.com/blog/ai-ranking">
               AI innovation
             </Link>
             , or niche specialization—are gaining momentum, challenging
@@ -190,7 +190,7 @@ export default function SearchEngines() {
           <p className="text-base text-gray-700 mb-4">
             Historically, search engines emerged in the early 1990s with tools
             like Archie and Excite. Over time, indexing algorithms,
-            <Link href="https://latinowebstudio.com/blog/attorneys-keywords">
+            <Link href="https://www.precisewolf.com/blog/attorneys-keywords">
               keyword
             </Link>{" "}
             matching, and user feedback loops became more sophisticated, shaping
@@ -222,11 +222,11 @@ export default function SearchEngines() {
           <p className="text-base text-gray-700 mb-4">
             Search engines use complex algorithms to rank indexed content.
             Factors include page relevance, authority,{" "}
-            <Link href="https://latinowebstudio.com/blog/mobile-responsiveness">
+            <Link href="https://www.precisewolf.com/blog/mobile-responsiveness">
               mobile usability
             </Link>
             , and
-            <Link href="https://latinowebstudio.com/blog/how-to-improve-page-speed">
+            <Link href="https://www.precisewolf.com/blog/how-to-improve-page-speed">
               page speed
             </Link>
             . The highest-ranked results are served first.
@@ -316,11 +316,11 @@ export default function SearchEngines() {
           <p className="text-base text-gray-700 mb-4">
             Search engine optimization remains the most scalable way for expert
             witnesses to be discovered by attorneys.{" "}
-            <Link href="https://latinowebstudio.com/practice-areas/seo">
+            <Link href="https://www.precisewolf.com/practice-areas/seo">
               Results-driven SEO services
             </Link>
             involve technical site health, structured{" "}
-            <Link href="https://latinowebstudio.com/blog/schema-markup">
+            <Link href="https://www.precisewolf.com/blog/schema-markup">
               schema data
             </Link>
             , fast loading, mobile responsiveness, and clear topical authority.
@@ -328,14 +328,14 @@ export default function SearchEngines() {
           <p className="text-base text-gray-700 mb-4">
             Precise Wolf Digital integrates these practices by optimizing legal bio
             pages, using{" "}
-            <Link href="https://latinowebstudio.com/blog/eeat">E-E-A-T</Link>{" "}
+            <Link href="https://www.precisewolf.com/blog/eeat">E-E-A-T</Link>{" "}
             signals (Experience, Expertise, Authoritativeness, Trust), and
             crafting{" "}
-            <Link href="https://latinowebstudio.com/blog/content-strategy">
+            <Link href="https://www.precisewolf.com/blog/content-strategy">
               content strategies
             </Link>{" "}
             that attract{" "}
-            <Link href="https://latinowebstudio.com/blog/search-intent">
+            <Link href="https://www.precisewolf.com/blog/search-intent">
               attorney search behavior
             </Link>
             .
@@ -431,7 +431,7 @@ export default function SearchEngines() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             AI-generated summaries affect click-through rates. Traditional{" "}
-            <Link href="https://latinowebstudio.com/blog/google-search-rankings">
+            <Link href="https://www.precisewolf.com/blog/google-search-rankings">
               ranking factors
             </Link>{" "}
             are now supplemented with interaction metrics and quality cues tied
@@ -476,7 +476,7 @@ export default function SearchEngines() {
           <p className="text-base text-gray-700 mb-4">
             AI-first interfaces may reduce traffic to external websites that are
             not{" "}
-            <Link href="https://latinowebstudio.com/blog/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/blog/seo-expert-witnesses">
               SEO optimized for expert witnesses
             </Link>
             .

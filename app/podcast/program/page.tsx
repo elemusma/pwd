@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     title: "Inside the Attorney's Mind - Podcast Program | Precise Wolf Digital",
     description:
       "Join the Inside the Attorney's Mind podcast where expert witnesses learn what attorneys truly look for. Discover how to stand out and become an indispensable partner to the attorneys who hire you.",
-    url: `https://latinowebstudio.com/podcast/program/`,
+    url: `https://www.precisewolf.com/podcast/program/`,
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/assets/Program-Podcast-01.jpg`,
+        url: `https://www.precisewolf.com/assets/Program-Podcast-01.jpg`,
         width: 1200,
         height: 630,
         alt: "Inside the Attorney's Mind Podcast Program - Precise Wolf Digital",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://latinowebstudio.com/podcast/program",
+    canonical: "https://www.precisewolf.com/podcast/program",
   },
 };
 

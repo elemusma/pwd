@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       "The Expert Witness's Guide to High-Authority Directories - Precise Wolf Digital",
     description:
       "In today's digital-first legal landscape, expert witnesses are often discovered not through word-of-mouth referrals, but through online directories and search results.",
-    url: `https://latinowebstudio.com/articles/citations-directories`, // Replace with actual URL
+    url: `https://www.precisewolf.com/articles/citations-directories`, // Replace with actual URL
     type: "website",
     images: [
       {
-        url: `https://latinowebstudio.com/articles/Expert-Witnesss-Directories-01.png`, // Replace with the actual image path
+        url: `https://www.precisewolf.com/articles/Expert-Witnesss-Directories-01.png`, // Replace with the actual image path
         width: 1200, // Standard OG image width
         height: 630, // Standard OG image height
         alt: "The Expert Witness Guide to High-Authority Directories: Boosting Your Visibility and Credibility - Precise Wolf Digital",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   // ✅ Add this block:
   alternates: {
-    canonical: "https://latinowebstudio.com/articles/citations-directories",
+    canonical: "https://www.precisewolf.com/articles/citations-directories",
   },
 };
 
@@ -48,25 +48,25 @@ export default function CitationsDirectories() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://latinowebstudio.com/articles/citations-directories",
+                "https://www.precisewolf.com/articles/citations-directories",
             },
             headline:
               "The Expert Witness's Guide to High-Authority Directories",
             description:
               "In today's digital-first legal landscape, expert witnesses are often discovered not through word-of-mouth referrals, but through online directories and search results.",
             image:
-              "https://latinowebstudio.com/articles/Expert-Witnesss-Directories-01.png",
+              "https://www.precisewolf.com/articles/Expert-Witnesss-Directories-01.png",
             author: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
-              url: "https://latinowebstudio.com/about",
+              url: "https://www.precisewolf.com/about",
             },
             publisher: {
               "@type": "Organization",
               name: "Precise Wolf Digital",
               logo: {
                 "@type": "ImageObject",
-                url: "https://latinowebstudio.com/assets/LWS-Workspace.png",
+                url: "https://www.precisewolf.com/assets/LWS-Workspace.png",
               },
             },
             datePublished: "2025-05-28",
@@ -151,7 +151,7 @@ export default function CitationsDirectories() {
           <p className="text-base text-gray-700 mb-4">
             Consistency in NAP information across all online platforms is
             foundational to your{" "}
-            <Link href="https://latinowebstudio.com/articles/seo-expert-witnesses">
+            <Link href="https://www.precisewolf.com/articles/seo-expert-witnesses">
               SEO success as an expert witness
             </Link>
             . Variations, even minor ones, can confuse search engines and
@@ -160,7 +160,7 @@ export default function CitationsDirectories() {
           </p>
           <p className="text-base text-gray-700 mb-4">
             To further support structured understanding,{" "}
-            <Link href="https://latinowebstudio.com/articles/schema-markup">
+            <Link href="https://www.precisewolf.com/articles/schema-markup">
               schema markup for expert witness
             </Link>
             , particularly the{" "}
@@ -176,7 +176,7 @@ export default function CitationsDirectories() {
           </h2>
           <p className="text-base text-gray-700 mb-4">
             Google evaluates web content based on{" "}
-            <Link href="https://latinowebstudio.com/articles/eeat">
+            <Link href="https://www.precisewolf.com/articles/eeat">
               Experience, Expertise, Authoritativeness, and Trustworthiness
               (E-E-A-T)
             </Link>
