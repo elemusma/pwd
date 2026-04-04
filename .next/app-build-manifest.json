@@ -12,17 +12,17 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/podcast/page": [
+    "/practice-areas/seo/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/podcast/page.css",
-      "static/chunks/app/podcast/page.js"
+      "static/css/app/practice-areas/seo/page.css",
+      "static/chunks/app/practice-areas/seo/page.js"
     ],
-    "/podcast/program/page": [
+    "/pricing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/podcast/program/page.css",
-      "static/chunks/app/podcast/program/page.js"
+      "static/css/app/pricing/page.css",
+      "static/chunks/app/pricing/page.js"
     ]
   }
 }
