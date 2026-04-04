@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     "Transparent pricing for expert witness web design and monthly SEO services. Choose the plan that fits your goals and start attracting more attorney clients.",
   openGraph: {
     title:
-      "Pricing - Web Design & SEO for Expert Witnesses | Precise Wolf Digital",
+      "Pricing - Web Design & SEO Services- Precise Wolf Digital",
     description:
-      "Transparent pricing for expert witness web design and monthly SEO services. Choose the plan that fits your goals and start attracting more attorney clients.",
+      "Transparent pricing for web design and monthly SEO services. Choose the plan that fits your goals and start attracting more attorney clients.",
     url: "https://www.precisewolf.com/pricing",
     type: "website",
     images: [
