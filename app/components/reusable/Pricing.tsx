@@ -107,9 +107,9 @@ const PricingTableStarter = () => {
           >
             {/* Header */}
             <div className={`${plan.headerBg} p-4`}>
-              <p className={`text-sm font-semibold uppercase tracking-widest ${plan.headerColor} opacity-80`}>
+              {/* <p className={`text-sm font-semibold uppercase tracking-widest ${plan.headerColor} opacity-80`}>
                 {plan.subtitle}
-              </p>
+              </p> */}
               <h2 className={`text-4xl font-bold mt-1 ${plan.headerColor}`}>
                 {plan.title}
               </h2>

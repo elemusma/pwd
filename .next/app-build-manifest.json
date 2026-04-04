@@ -6,18 +6,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/practice-areas/seo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/practice-areas/seo/page.css",
-      "static/chunks/app/practice-areas/seo/page.js"
-    ],
     "/pricing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

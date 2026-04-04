@@ -3221,6 +3221,10 @@ blockquote p {
   background-color: var(--accent-primary);
 }
 
+.hover\:bg-\[var\(--accent-primary-darker\)\]:hover {
+  background-color: var(--accent-primary-darker);
+}
+
 .hover\:bg-\[var\(--accent-secondary\)\]:hover {
   background-color: var(--accent-secondary);
 }
@@ -3233,10 +3237,6 @@ blockquote p {
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-\[var\(--accent-primary-darker\)\]:hover {
-  background-color: var(--accent-primary-darker);
 }
 
 .hover\:text-blue-800:hover {
