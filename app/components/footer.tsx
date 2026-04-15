@@ -4,7 +4,7 @@ import "../styles/footer.scss";
 import Logo from "./logo";
 import SocialIcons from "./social-icons";
 import { usePathname } from "next/navigation";
-import { Phone } from "./globals";
+import { Phone, Email } from "./globals";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -52,9 +52,12 @@ function Footer() {
               >
                 Fulfillment Policy
               </Link>
-              <Link className="block" target="_blank" href={`tel:+1${Phone}`}>
+              <Link className="block" href={`tel:+1${Phone}`}>
                 {Phone}
               </Link>
+              <a className="block" target="_blank" href={`mailto:${Email}`}>
+                {Email}
+              </a>
               <span>Denver, CO 80210</span>
               <div></div>
               <a href="https://g.page/r/CbF4CHrc1dblEBM/review" target="_blank">
