@@ -2,6 +2,31 @@ import Link from "next/link";
 import CalendlyWidget from "../components/calendly";
 import Main from "../js/main";
 import ContactForm from "../components/forms/ContactForm";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Precise Wolf Digital - Let's Talk SEO & Web Design",
+  description:
+    "Ready to get more clients from Google? Send a message or schedule a call with Precise Wolf Digital to talk about SEO and web design for your business.",
+  openGraph: {
+    title: "Contact Precise Wolf Digital - Let's Talk SEO & Web Design",
+    description:
+      "Ready to get more clients from Google? Send a message or schedule a call with Precise Wolf Digital to talk about SEO and web design for your business.",
+    url: "https://www.precisewolf.com/contact",
+    type: "website",
+    images: [
+      {
+        url: "https://www.precisewolf.com/podcast/Banner-FB-YT.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Precise Wolf Digital",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.precisewolf.com/contact",
+  },
+};
 
 export default function ContactPage() {
   return (
