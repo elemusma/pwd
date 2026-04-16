@@ -15,7 +15,7 @@ textarea {
   transition:
     border-color 0.2s ease-in-out,
     box-shadow 0.2s ease-in-out;
-    color:black;
+    color:black !important;
 
   &:focus {
     border-color: var(--accent-primary);

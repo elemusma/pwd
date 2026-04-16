@@ -1222,7 +1222,7 @@ textarea {
   border-radius: 0.375rem;
   border: 1px solid var(--neutral-dark);
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  color: black;
+  color: black !important;
 }
 input:focus,
 select:focus,
@@ -1977,6 +1977,9 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -2021,9 +2024,6 @@ video {
 }
 .mt-\[-45px\] {
   margin-top: -45px;
-}
-.mb-\[25px\] {
-  margin-bottom: 25px;
 }
 .mt-\[25px\] {
   margin-top: 25px;
