@@ -1,11 +1,12 @@
 import { google } from "googleapis";
 import nodemailer from "nodemailer";
+import { submitToN8n } from "@/app/lib/submitToN8n";
 
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID!;
 const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET!;
 const REDIRECT_URI = "https://developers.google.com/oauthplayground";
 const REFRESH_TOKEN = process.env.GOOGLE_REFRESH_TOKEN!;
-const RECAPTCHA_SECRET = process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY!;
+const RECAPTCHA_SECRET = process.env.PWD_RECAPTCHA_SECRET_KEY!;
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -68,12 +69,19 @@ export async function POST(req: Request) {
     // const accessToken = await oAuth2Client.getAccessToken();
     // console.log("🔑 Access Token:", accessToken?.token);
 
+    await submitToN8n({
+      form_type: "white_paper",
+      user_email,
+      embed_url,
+      submitted_at: new Date().toISOString(),
+    });
+
     const transport = nodemailer.createTransport({
       service: "gmail",
       auth: {
         // type: "OAuth2",
         user: process.env.GMAIL_USER,
-        pass: process.env.NEXT_PUBLIC_EMAIL_APP_PASSWORD,
+        pass: process.env.EMAIL_APP_PASSWORD,
         // clientId: CLIENT_ID,
         // clientSecret: CLIENT_SECRET,
         // refreshToken: REFRESH_TOKEN,
@@ -96,7 +104,7 @@ export async function POST(req: Request) {
 <table style="margin: auto; padding-top:20px;padding-bottom: 20px;">
 <tbody>
 <tr>
-<td style="text-align: center;"><img src="https://resources.latinowebstudio.com/wp-content/uploads/2025/06/LWS-Workspace.png" alt="Logo" width="250px" height="auto" /></td>
+<td style="text-align: center;"><img src="https://www.precisewolf.com/logos/logo.png" alt="Logo" width="250px" height="auto" /></td>
 </tr>
 </tbody>
 </table>

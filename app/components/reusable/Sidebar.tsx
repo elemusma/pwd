@@ -32,7 +32,7 @@ export default function Sidebar() {
         </small>
       </div> */}
 
-      <div className="gradient-background pb-5 rounded-[45px]">
+      <div className="pb-5 rounded-[45px]">
         <div className="flex flex-wrap justify-center">
           <SocialIcons />
         </div>

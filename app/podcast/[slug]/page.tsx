@@ -137,7 +137,7 @@ export default async function PodcastEpisodePage({ params }: PodcastPageProps) {
             <div className="flex flex-wrap">
               <div className="lg:w-3/4 w-full lg:pr-10 mb-10">
                 {/* Episode Header */}
-                <header className="mb-0">
+                <header className="mb-8">
                   <h1
                     className="text-3xl md:text-4xl font-bold !mt-0 mb-4"
                     dangerouslySetInnerHTML={{ __html: post.title.rendered }}
@@ -146,8 +146,8 @@ export default async function PodcastEpisodePage({ params }: PodcastPageProps) {
                   <time className="text-gray-600 text-lg">
                     Published on {formatDate(post.date)}
                   </time>
-                  <CTAButtons />
                 </header>
+                  <CTAButtons />
 
                 {/* Episode Content */}
                 <div

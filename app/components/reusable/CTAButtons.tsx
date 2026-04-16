@@ -9,11 +9,17 @@ function CTAButtons() {
           <Link href={`#schedule`} className="btn-main mx-2 blog-article">
             Get More Leads
           </Link>
-          <a href={`tel:+1${Phone}`} className="btn-main secondary mx-2">
+          {/* <Link
+            href={`/podcast`}
+            className="text-link inline-block podcast-guest-attorney"
+          >
+            Be Podcast Guest
+          </Link> */}
+          <a href={`tel:+1${Phone}`} className="text-link mx-2">
             {Phone}
           </a>
         </div>
-        <div className="">
+        {/* <div className="">
           <Link
             href={`/podcast`}
             className="text-link inline-block podcast-guest-attorney"
@@ -21,7 +27,7 @@ function CTAButtons() {
             Be Podcast Guest
           </Link>
           
-        </div>
+        </div> */}
       </div>
     </>
   );

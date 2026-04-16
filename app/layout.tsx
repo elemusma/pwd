@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Nav from "./components/nav";
+import Script from "next/script";
 import "./globals.css";
 // import "./styles/01.scss";
 import Footer from "./components/footer";
@@ -77,10 +78,9 @@ export default function RootLayout({
         <Nav />
         {children}
         <Footer />
-        <script
+        <Script
           src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
-          async
-          defer
+          strategy="afterInteractive"
         />
       </body>
     </html>

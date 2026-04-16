@@ -15,15 +15,7 @@ const ContactForm: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const [loading, setLoading] = useState(false);
   const [isDirty, setIsDirty] = useState(false);
-  const [operandA, setOperandA] = useState(0);
-  const [operandB, setOperandB] = useState(0);
-
-  useEffect(() => {
-    const a = Math.floor(Math.random() * 5) + 1;
-    const b = Math.floor(Math.random() * 5) + 1;
-    setOperandA(a);
-    setOperandB(b);
-  }, []);
+  const [isFocused, setIsFocused] = useState(false);
 
   const handleBeforeUnload = useCallback(
     (e: BeforeUnloadEvent) => {
@@ -49,6 +41,14 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     if (!formRef.current) return;
 
+    // Treat submit attempts without any prior focus as bot-like activity.
+    if (!isFocused) {
+      setIsDirty(false);
+      toast.success("Message sent successfully!");
+      router.push("/thank-you/");
+      return;
+    }
+
     const formData = new FormData(formRef.current);
 
     const data = {
@@ -58,9 +58,6 @@ const ContactForm: React.FC = () => {
       user_subject: formData.get("user_subject") as string,
       message: formData.get("message") as string,
       job_title: formData.get("job_title") as string,
-      operand_a: formData.get("operand_a") as string,
-      operand_b: formData.get("operand_b") as string,
-      additional_info_1: formData.get("additional_info_1") as string,
       embed_url: window.location.href, // Capture the current page URL
     };
 
@@ -135,6 +132,7 @@ const ContactForm: React.FC = () => {
           ref={formRef}
           onSubmit={sendEmail}
           onChange={handleInputChange}
+          onFocus={() => setIsFocused(true)}
           className="space-y-4"
         >
           <div className="flex flex-col md:flex-row gap-4">
@@ -234,23 +232,6 @@ const ContactForm: React.FC = () => {
                 required
               ></textarea>
             </div>
-          </div>
-
-          <div className="relative">
-            <label
-              htmlFor="additional_info_1"
-              className="block text-sm font-medium"
-            >
-              What is {operandA} + {operandB}?
-            </label>
-            <input
-              type="number"
-              name="additional_info_1"
-              className="w-full"
-              required
-            />
-            <input type="hidden" name="operand_a" value={operandA} />
-            <input type="hidden" name="operand_b" value={operandB} />
           </div>
 
           {/* Honeypot field - should remain empty */}

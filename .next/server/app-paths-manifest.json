@@ -1,1 +1,7 @@
-{}
+{
+  "/thank-you-white-paper/page": "app/thank-you-white-paper/page.js",
+  "/podcast/page": "app/podcast/page.js",
+  "/thank-you/page": "app/thank-you/page.js",
+  "/articles/page": "app/articles/page.js",
+  "/articles/[slug]/page": "app/articles/[slug]/page.js"
+}
