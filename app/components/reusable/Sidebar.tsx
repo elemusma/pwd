@@ -8,7 +8,7 @@ export default function Sidebar() {
     <aside className="lg:w-1/4 w-full sticky top-[7rem] lg:pt-0 pt-10 lg:px-0 px-4">
       <div className="relative">
         <Image
-          src="/assets/Get-More-Cases-Get-Found-by-Attorneys-White-Paper.jpg"
+          src="/sidebar/Ted-Martinez-White-Paper.jpg"
           width={1000}
           height={1000}
           alt={"Get More Cases and Get Found by Attorneys Download White Paper"}
