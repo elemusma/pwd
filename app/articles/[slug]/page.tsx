@@ -46,7 +46,7 @@ async function fetchWordPressPost(slug: string): Promise<WordPressPost | null> {
     const response = await fetch(
       `https://resources.latinowebstudio.com/wp-json/wp/v2/posts?slug=${slug}&categories=117&_embed=wp:featuredmedia`,
       {
-        next: { revalidate: 3600 }, // Revalidate every hour
+        next: { revalidate: 15 }, // Revalidate every hour
       },
     );
 
