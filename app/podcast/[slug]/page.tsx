@@ -9,6 +9,7 @@ import "@/app/styles/blog.scss";
 import CTA from "@/app/components/reusable/cta";
 import Main from "@/app/js/main";
 import he from "he"; // Add this import
+import CTAButtons from "@/app/components/reusable/CTAButtons";
 
 // Define the WordPress post type
 interface WordPressPost {
@@ -145,6 +146,7 @@ export default async function PodcastEpisodePage({ params }: PodcastPageProps) {
                   <time className="text-gray-600 text-lg">
                     Published on {formatDate(post.date)}
                   </time>
+                  <CTAButtons />
                 </header>
 
                 {/* Episode Content */}
@@ -152,6 +154,7 @@ export default async function PodcastEpisodePage({ params }: PodcastPageProps) {
                   className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-a:hover:text-blue-800"
                   dangerouslySetInnerHTML={{ __html: post.content.rendered }}
                 />
+                <CTAButtons />
               </div>
               <Sidebar />
             </div>

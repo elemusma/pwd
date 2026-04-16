@@ -122,7 +122,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <Main />
       <main className="lg:pt-[70px] pt-[30px]">
         <div className="bg-white">
-          <article className="max-w-screen-lg mx-auto pt-[50px] px-4 py-8 single-post bg-white">
+          <article className="max-w-screen-xl mx-auto pt-[50px] px-4 py-8 single-post bg-white">
             {/* Featured Image */}
             {/* {post._embedded?.["wp:featuredmedia"]?.[0] && (
         <div className="mb-8">
