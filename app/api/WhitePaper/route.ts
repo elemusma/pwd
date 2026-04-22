@@ -97,6 +97,7 @@ export async function POST(req: Request) {
       from: `"Precise Wolf Digital" <${process.env.GMAIL_USER}>`,
       to: "ted@precisewolf.com",
       subject: `White Paper Download`,
+      replyTo: `<${user_email}>`,
       html: `<table style="background-color: #f7f7f7; width: 100%;">
 <tbody>
 <tr>

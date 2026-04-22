@@ -143,7 +143,8 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: `"Precise Wolf Digital" <${process.env.GMAIL_USER}>`,
       to: "ted@precisewolf.com",
-      subject: `Contact: "${user_name}"`,
+      subject: `PWD - Website Lead: "${user_name}"`,
+      replyTo: `"${user_name}" <${user_email}>`,
       html: `<table style="background-color: #f7f7f7; width: 100%;">
 <tbody>
 <tr>
