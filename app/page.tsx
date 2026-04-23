@@ -77,7 +77,7 @@ export default function Home() {
                 <div className="relative w-full pb-[56.25%] h-0">
                   <iframe
                     className="absolute top-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/C_RSfS8xE30?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
+                    src="https://www.youtube.com/embed/56RVJqZdkNc?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -102,7 +102,7 @@ export default function Home() {
                 {/* <h2>iOS, Android, &amp; Web Apps</h2> */}
                 {/* <div className="lg:w-9/12 w-1/9"> */}
                 <p className="text-md mt-4 mb-4">
-                  A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both prolems and create content that makes your clients find you when they&apos;re actively searching for an expert like you. 
+                  A good-looking site that nobody finds or trusts isn&apos;t doing its job. I fix both problems and create content that makes your clients find you when they&apos;re actively searching for an expert like you. 
                 </p>
                 {/* <Login /> */}
                 {/* </div> */}
@@ -151,9 +151,10 @@ export default function Home() {
 
               <div className="lg:w-5/12 w-full px-4 pb-4">
                 <div className="relative w-full pb-[56.25%] h-0">
+                  
                   <iframe
                     className="absolute top-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/W70us93i4IY?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
+                    src="https://www.youtube.com/embed/C_RSfS8xE30?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -166,7 +167,7 @@ export default function Home() {
                 <div className="relative w-full pb-[56.25%] h-0">
                   <iframe
                     className="absolute top-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/UfeZREBCJaE?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
+                    src="https://www.youtube.com/embed/W70us93i4IY?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md&rel=0&modestbranding=1"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
