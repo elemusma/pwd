@@ -59,7 +59,7 @@ export default function ThankYouWhitePaperPage() {
             
                   <div className="flex justify-center mb-[25px]">
                     <a
-                      href="https://podcasts.apple.com/us/podcast/laura-osullivan-on-what-criminal-defense-attorneys/id1893727741?i=1000761610341"
+                      href="https://www.youtube.com/playlist?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mx-2"
@@ -73,7 +73,7 @@ export default function ThankYouWhitePaperPage() {
                       />
                     </a>
                     <a
-                      href="https://podcasts.apple.com/us/podcast/laura-osullivan-on-what-criminal-defense-attorneys/id1893727741?i=1000761610341"
+                      href="https://podcasts.apple.com/us/podcast/inside-the-attorneys-mind/id1893727741"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mx-2"
@@ -87,7 +87,7 @@ export default function ThankYouWhitePaperPage() {
                     </a>
             
                     <a
-                      href="https://open.spotify.com/episode/1QoUPC3uAv3Cvd6oKiSOW9"
+                      href="https://open.spotify.com/show/3gJ0zO2b5wyk3WhbRpFdvh"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mx-2"
@@ -101,7 +101,7 @@ export default function ThankYouWhitePaperPage() {
                     </a>
             
                     <a
-                      href="https://music.amazon.com/podcasts/181bfe9b-ba79-44c8-9c49-c297c8c01313/episodes/89f98ece-39b2-4c4e-bd01-ea7b3ba83504/inside-the-attorney's-mind-laura-o'sullivan-on-what-criminal-defense-attorneys-actually-want-from-expert-witnesses"
+                      href="https://music.amazon.com/podcasts/181bfe9b-ba79-44c8-9c49-c297c8c01313/inside-the-attorney's-mind"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mx-2"
