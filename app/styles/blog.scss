@@ -3,6 +3,13 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+figure.alignright.size-full {
+    float: right;
+    margin: .5em 0 .5em 1em;
+    display: table;
+    width: 350px;
+}
+
 .blog {
   a {
     color: var(--accent-secondary);
