@@ -1,1 +1,6 @@
-{}
+{
+  "/page": "app/page.js",
+  "/podcast/[slug]/page": "app/podcast/[slug]/page.js",
+  "/articles/[slug]/page": "app/articles/[slug]/page.js",
+  "/podcast/page": "app/podcast/page.js"
+}

@@ -14,6 +14,7 @@ import type { Metadata } from "next";
 import ContentBlock from "../components/content-block";
 import NewsPostCard from "../components/podcastCard";
 import GoogleReviews from "../components/reusable/GoogleReviews";
+import SocialIcons from "../components/social-icons";
 
 export const metadata: Metadata = {
   title:
@@ -138,7 +139,8 @@ export default async function PodcastPage(props: {
           <h1 className="text-3xl font-bold mb-0 text-center">
             Inside the Attorney&apos;s Mind Podcast
           </h1>
-          <p><a href="https://www.youtube.com/playlist?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md" target="_blank" title="Interviews with litigation attorneys">Watch on YouTube</a></p>
+          {/* <p><a href="https://www.youtube.com/playlist?list=PL8V1pLWolwwUEMH7MC0_cMQhmqiTGv6Md" target="_blank" title="Interviews with litigation attorneys">Watch on YouTube</a></p> */}
+          <SocialIcons />
           </div>
 
           {/* List of posts */}

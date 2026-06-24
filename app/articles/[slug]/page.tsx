@@ -15,6 +15,7 @@ import CTAButtons from "@/app/components/reusable/CTAButtons";
 interface WordPressPost {
   id: number;
   date: string;
+  modified: string;
   title: {
     rendered: string;
   };
@@ -148,9 +149,25 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                   />
 
-                  <time className="text-gray-600 text-lg">
-                    Published on {formatDate(post.date)}
-                  </time>
+                  <div className="text-gray-600 text-lg space-y-1 flex flex-wrap items-center">
+    <time dateTime={post.date}>
+      Published on {formatDate(post.date)}
+    </time>
+
+    {post.modified !== post.date && (
+      <div className="!mt-0">
+        <span className="mx-2">-</span>
+        <em>
+          (
+        Updated on{" "}
+        <time dateTime={post.modified}>
+          {formatDate(post.modified)}
+        </time>
+          )
+        </em>
+      </div>
+    )}
+  </div>
                 </header>
 
                 <CTAButtons />

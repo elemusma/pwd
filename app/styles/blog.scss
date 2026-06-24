@@ -3,11 +3,21 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-figure.alignright.size-full {
+figure.alignright {
     float: right;
     margin: .5em 0 .5em 1em;
     display: table;
     width: 350px;
+}
+figure.alignright {
+    float: right;
+    margin: .5em 0 .5em 1em;
+}
+summary {
+    line-height: 1.625;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .blog {
